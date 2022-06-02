@@ -1,0 +1,120 @@
+\tcbuselibrary{raster}
+%%Chia thành 2 cột
+\newcommand{\haividu}[2]{
+\begin{tcbraster}[%Chia làm 2 cột, 1 dòng
+        raster columns=2,
+        raster rows=1,
+		raster equal height,
+		size=small,colframe=cyan,colback=nencl,
+		colbacktitle=nencl,
+		raster left skip=0pt,
+		raster right skip=0pt,
+		left=1mm,right=1mm,
+		top=3pt,bottom=3pt,
+		arc is angular,
+		arc=3pt,
+%		title={\small\fontfamily{qag}\bfseries\selectfont\color{blue!70!black} Ví dụ \thetcbrasternum}
+        ]
+    %%%=============cột thứ nhất=============%%%
+        \begin{tcolorbox}
+        {\small\fontfamily{qag}\bfseries\selectfont Ví dụ \thetcbrasternum.} #1
+        \end{tcolorbox}
+     %%%===========cột thứ hai==============%%%
+     \begin{tcolorbox}[enhanced,underlay={\begin{tcbclipinterior}
+                \tikzset{daucham/.style={dash pattern=on .02mm off 2.mm, line cap=round}}
+                \draw[daucham,line width=1pt,xstep=80,ystep=0.65,color=gray]
+               ([xshift=5pt]interior.north west) grid ([xshift=-2pt]interior.south east);	
+                \end{tcbclipinterior}}]
+                    \begin{tcolorbox}[boxrule=0mm,
+                         grow to left by=1mm,
+                         grow to right by=1mm,
+                         left=0pt,right=0pt,top=0pt,
+                         sharp corners]
+                   {\small\fontfamily{qag}\bfseries\selectfont Ví dụ \thetcbrasternum.}  #2
+%                   {\vspace*{-12pt}\begin{center}
+%                   {\bfseries\fontfamily{qag}\small\selectfont Bài làm}
+%                   \end{center}}
+            \end{tcolorbox}
+      \end{tcolorbox}                 
+\end{tcbraster}}
+%%Chia ví dụ thành 4 cột
+\newcommand{\bonvidu}[4]{
+\begin{tcbraster}[%Chia làm 2 cột, 1 dòng
+        raster columns=2,
+        raster rows=2,
+		raster equal height,
+		size=small,colframe=cyan,colback=nencl,
+		colbacktitle=nencl,
+		raster left skip=0pt,
+		raster right skip=0pt,
+		left=1mm,right=1mm,
+		top=3pt,bottom=3pt,
+		arc is angular,
+		arc=3pt,
+%		title={\small\fontfamily{qag}\bfseries\selectfont\color{blue!70!black} Ví dụ \thetcbrasternum}
+        ]
+    %%%=============Ví dụ thứ nhất=============%%%
+        \begin{tcolorbox}
+        {\small\fontfamily{qag}\bfseries\selectfont Ví dụ \thetcbrasternum.} #1
+        \end{tcolorbox}
+     %%%===========Ví dụ thứ hai==============%%%
+     \begin{tcolorbox}[enhanced,underlay={\begin{tcbclipinterior}
+                \tikzset{daucham/.style={dash pattern=on .02mm off 2.mm, line cap=round}}
+                \draw[daucham,line width=1pt,xstep=80,ystep=0.65,color=gray]
+               ([xshift=5pt]interior.north west) grid ([xshift=-2pt]interior.south east);	
+                \end{tcbclipinterior}}]
+                    \begin{tcolorbox}[boxrule=0mm,
+                         grow to left by=1mm,
+                         grow to right by=1mm,
+                         left=0pt,right=0pt,top=0pt,
+                         sharp corners]
+                   {\small\fontfamily{qag}\bfseries\selectfont Ví dụ \thetcbrasternum.}  #2
+%                   {\vspace*{-15pt}\begin{center}
+%                   {\bfseries\fontfamily{qag}\small\selectfont Bài làm}
+%                   \end{center}}
+            \end{tcolorbox}
+      \end{tcolorbox}           
+         %%%===========Ví dụ thứ ba==============%%%
+         \begin{tcolorbox}[enhanced,underlay={\begin{tcbclipinterior}
+                    \tikzset{daucham/.style={dash pattern=on .02mm off 2.mm, line cap=round}}
+                    \draw[daucham,line width=1pt,xstep=80,ystep=0.65,color=gray]
+                   ([xshift=5pt]interior.north west) grid ([xshift=-2pt]interior.south east);	
+                    \end{tcbclipinterior}}]
+                        \begin{tcolorbox}[boxrule=0mm,
+                             grow to left by=1mm,
+                             grow to right by=1mm,
+                             left=0pt,right=0pt,top=0pt,
+                             sharp corners]
+                       {\small\fontfamily{qag}\bfseries\selectfont Ví dụ \thetcbrasternum.}  #3
+%                       {\vspace*{-15pt}\begin{center}
+%                       {\bfseries\fontfamily{qag}\small\selectfont Bài làm}
+%                       \end{center}}
+                \end{tcolorbox}
+          \end{tcolorbox}            
+         %%%===========Ví dụ thứ tư==============%%%
+         \begin{tcolorbox}[enhanced,underlay={\begin{tcbclipinterior}
+                    \tikzset{daucham/.style={dash pattern=on .02mm off 2.mm, line cap=round}}
+                    \draw[daucham,line width=1pt,xstep=80,ystep=0.65,color=gray]
+                   ([xshift=5pt]interior.north west) grid ([xshift=-2pt]interior.south east);	
+                    \end{tcbclipinterior}}]
+                        \begin{tcolorbox}[boxrule=0mm,
+                             grow to left by=1mm,
+                             grow to right by=1mm,
+                             left=0pt,right=0pt,top=0pt,
+                             sharp corners]
+                       {\small\fontfamily{qag}\bfseries\selectfont Ví dụ \thetcbrasternum.}  #4
+%                       {\vspace*{-15pt}\begin{center}
+%                       {\bfseries\fontfamily{qag}\small\selectfont Bài làm}
+%                       \end{center}}
+                \end{tcolorbox}
+          \end{tcolorbox}                 
+\end{tcbraster}}
+
+%%%==================Môi trường chấm bên phải================%%%
+\newtcolorbox{rightdots}[1][5cm]{blanker,breakable,right=3mm+#1,left=0pt,top=0pt,bottom=0pt,
+	code={\def\tabex{0pt}},
+	underlay={
+ 	  \begin{scope}[line width=1.5pt,line cap=round]
+			\tikzset{circle dotted/.style={dash pattern=on .02mm off 2.mm}}
+			\draw[circle dotted,xstep=70,ystep=0.7,color=gray!70] (interior.north east) grid ([xshift=-#1]interior.south east);	
+		\end{scope}}}

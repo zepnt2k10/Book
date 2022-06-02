@@ -1,0 +1,31 @@
+%%%%====\indapan====%%%
+%\newwrite\file
+%\immediate\openout\file=Dapan\arabic{section}.tex
+%\newcounter{itemcount}
+%\newcounter{itracnghiem}
+%%\newcounter{sodong}
+%%\setcounter{sodong}{1}
+%\renewcommand*{\do}[1]
+% {\refstepcounter{itemcount} 
+% \ifthenelse{\equal{\intcalcMod{\value{itemcount}}{10}}{0}}
+% {\immediate\write\file{#1 \string\\ \unexpanded{\hline}}}
+% {\immediate\write\file{#1 & }}
+% }
+%\dolistloop{\alist}
+%%%===Thêm vào cho đủ dòng=====%%
+%\ifthenelse{\equal{\intcalcMod{\value{itemcount}}{10}}{0}}
+%{} 
+%{\forloop{itracnghiem}{\intcalcMod{\value{itemcount}}{10}}{\value{itracnghiem}<9}{
+%	\immediate\write\file{& }
+%}
+%	\immediate\write\file{\string\\ \unexpanded{\hline}}
+%}
+%\closeout\file
+%
+%%%%=====phải tắt lệnh trên mới input được=====%%%  
+%\begin{center}
+%\begin{tabular}{*{10}{c}}
+%\hline
+% \input{Dapan\arabic{section}.tex}
+%\end{tabular}
+%\end{center}

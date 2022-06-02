@@ -1,0 +1,624 @@
+\usepackage{paracol}
+\tcbuselibrary{skins}
+\usepackage{relsize}
+\setlength{\columnsep}{4pt}
+%%\setlength{\topsep}{0pt}
+%%Chia thành 2 ô
+\newcommand{\dauchamhaio}[3][7cm]{%
+\begin{paracol}{2}
+    %%%=============cột thứ nhất=============%%%
+      \begin{tcolorbox}[breakable,enhanced,arc is angular,
+              		arc=2pt,boxrule=0.35mm,
+        			left=1mm,right=1mm,
+        			top=3pt,bottom=3pt,
+              		height=#1,
+            		colback=white,
+            		colframe=blue,
+              	underlay={\begin{tcbclipinterior}
+                 \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                 \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                 \end{tcbclipinterior}}]
+                     \begin{tcolorbox}[boxrule=0mm,
+                         colframe=white,
+                          grow to left by=2mm,
+                          grow to right by=2mm,
+                          left=0pt,right=0pt,top=-3pt,
+                          colback=white,
+                          arc is angular,
+                          arc=2pt]
+                    {\fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 1}.}  
+                    #2
+             \end{tcolorbox}
+       \end{tcolorbox}       
+     %%%===========cột thứ hai==============%%%
+  \switchcolumn
+     \begin{tcolorbox}[breakable,enhanced,arc is angular,
+             		arc=2pt,boxrule=0.35mm,
+       				left=1mm,right=1mm,
+       				top=3pt,bottom=3pt,
+             		height=#1,colframe=blue,
+           		   colback=white,
+             	underlay={\begin{tcbclipinterior}
+                \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+               ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                \end{tcbclipinterior}}]
+                    \begin{tcolorbox}[boxrule=0mm,
+                        colframe=white,
+                         grow to left by=2mm,
+                         grow to right by=2mm,
+                         left=0pt,right=0pt,top=-3pt,
+                         colback=white,
+                         arc is angular,
+                         arc=2pt]
+                   { \fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 2}.}  
+                   #3
+            \end{tcolorbox}
+      \end{tcolorbox}       
+ \end{paracol}          
+}
+%%%========================================================%%%
+\newcommand{\dauchambono}[5][7cm]{%
+\begin{paracol}{2}
+    %%%=============cột thứ nhất=============%%%
+      \begin{tcolorbox}[breakable,enhanced,arc is angular,
+              		arc=2pt,boxrule=0.35mm,
+        			left=1mm,right=1mm,
+        			top=3pt,bottom=3pt,
+              		height=#1,
+				 colframe=blue,
+            		colback=white,
+              	underlay={\begin{tcbclipinterior}
+                 \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                 \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                 \end{tcbclipinterior}}]
+                     \begin{tcolorbox}[boxrule=0mm,
+                         colframe=white,
+                          grow to left by=2mm,
+                          grow to right by=2mm,
+                          left=0pt,right=0pt,top=-3pt,
+                          colback=white,
+                          arc is angular,
+                          arc=2pt]
+                    { \fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 1}.}  
+                    #2
+             \end{tcolorbox}
+       \end{tcolorbox}       
+     %%%===========cột thứ hai==============%%%
+  \switchcolumn
+     \begin{tcolorbox}[breakable,enhanced,arc is angular,
+             		arc=2pt,boxrule=0.35mm,
+       				left=1mm,right=1mm,
+       				top=3pt,bottom=3pt,
+             		height=#1,
+ 					colframe=blue,
+           		   colback=white,
+             	underlay={\begin{tcbclipinterior}
+                \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+               ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                \end{tcbclipinterior}}]
+                    \begin{tcolorbox}[boxrule=0mm,
+                        colframe=white,
+                         grow to left by=2mm,
+                         grow to right by=2mm,
+                         left=0pt,right=0pt,top=-3pt,
+                         colback=white,
+                         arc is angular,
+                         arc=2pt]
+                   { \fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 2}.}  
+                   #3
+            \end{tcolorbox}
+      \end{tcolorbox}       
+      %%%=============cột thứ ba=============%%%
+        \switchcolumn
+        \begin{tcolorbox}[breakable,enhanced,arc is angular,
+                		arc=2pt,boxrule=0.35mm,
+                    before skip=0pt,
+          			left=1mm,right=1mm,
+          			top=3pt,bottom=3pt,
+                		height=#1,
+ colframe=blue,
+              		 colback=white,
+                	underlay={\begin{tcbclipinterior}
+                   \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                   \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                  ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                   \end{tcbclipinterior}}]
+                       \begin{tcolorbox}[boxrule=0mm,
+                           colframe=white,
+                            grow to left by=2mm,
+                            grow to right by=2mm,
+                            left=0pt,right=0pt,top=-3pt,
+                            colback=white,
+                            arc is angular,
+                            arc=2pt]
+                      { \fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 3}.}  
+                      #4
+               \end{tcolorbox}
+         \end{tcolorbox}       
+       %%%===========cột thứ tư==============%%%
+    \switchcolumn
+       \begin{tcolorbox}[breakable,enhanced,arc is angular,
+               		arc=2pt,boxrule=0.35mm,
+         			left=1mm,right=1mm,
+                    before skip=0pt,
+         			top=3pt,bottom=3pt,
+               		height=#1,
+ colframe=blue,
+             		   colback=white,
+               	underlay={\begin{tcbclipinterior}
+                  \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                  \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                 ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                  \end{tcbclipinterior}}]
+                      \begin{tcolorbox}[boxrule=0mm,
+                          colframe=white,
+                           grow to left by=2mm,
+                           grow to right by=2mm,
+                           left=0pt,right=0pt,top=-3pt,
+                           colback=white,
+                           arc is angular,
+                           arc=2pt]
+                     { \fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 4}.}  
+                     #5
+              \end{tcolorbox}
+        \end{tcolorbox}       
+ \end{paracol}          
+}
+
+%%%========================================================%%%
+\newcommand{\dauchamsauo}[7][7cm]{%
+\begin{paracol}{2}
+    %%%=============cột thứ nhất=============%%%
+      \begin{tcolorbox}[breakable,enhanced,arc is angular,
+              		arc=2pt,boxrule=0.35mm,
+        			left=1mm,right=1mm,
+        			top=3pt,bottom=3pt,
+              		height=#1,
+ colframe=blue,
+            		 colback=white,
+              	underlay={\begin{tcbclipinterior}
+                 \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                 \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                 \end{tcbclipinterior}}]
+                     \begin{tcolorbox}[boxrule=0mm,
+                         colframe=white,
+                          grow to left by=2mm,
+                          grow to right by=2mm,
+                          left=0pt,right=0pt,top=-3pt,
+                          colback=white,
+                          arc is angular,
+                          arc=2pt]
+                    { \fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 1}.}  
+                    #2
+             \end{tcolorbox}
+       \end{tcolorbox}       
+     %%%===========cột thứ hai==============%%%
+  \switchcolumn
+     \begin{tcolorbox}[breakable,enhanced,arc is angular,
+             		arc=2pt,boxrule=0.35mm,
+       				left=1mm,right=1mm,
+       				top=3pt,bottom=3pt,
+             		height=#1,
+ colframe=blue,
+           		   colback=white,
+             	underlay={\begin{tcbclipinterior}
+                \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+               ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                \end{tcbclipinterior}}]
+                    \begin{tcolorbox}[boxrule=0mm,
+                        colframe=white,
+                         grow to left by=2mm,
+                         grow to right by=2mm,
+                         left=0pt,right=0pt,top=-3pt,
+                         colback=white,
+                         arc is angular,
+                         arc=2pt]
+                   { \fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 2}.}  
+                   #3
+            \end{tcolorbox}
+      \end{tcolorbox}       
+      %%%=============cột thứ ba=============%%%
+        \switchcolumn
+        \begin{tcolorbox}[breakable,enhanced,arc is angular,
+                		arc=2pt,boxrule=0.35mm,
+                    before skip=0pt,
+          			left=1mm,right=1mm,
+          			top=3pt,bottom=3pt,
+                		height=#1,
+ colframe=blue,
+              		 colback=white,
+                	underlay={\begin{tcbclipinterior}
+                   \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                   \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                  ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                   \end{tcbclipinterior}}]
+                       \begin{tcolorbox}[boxrule=0mm,
+                           colframe=white,
+                            grow to left by=2mm,
+                            grow to right by=2mm,
+                            left=0pt,right=0pt,top=-3pt,
+                            colback=white,
+                            arc is angular,
+                            arc=2pt]
+                      { \fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 3}.}  
+                      #4
+               \end{tcolorbox}
+         \end{tcolorbox}       
+       %%%===========cột thứ tư==============%%%
+    \switchcolumn
+       \begin{tcolorbox}[breakable,enhanced,arc is angular,
+               		arc=2pt,boxrule=0.35mm,
+         			left=1mm,right=1mm,
+                    before skip=0pt,
+         			top=3pt,bottom=3pt,
+               		height=#1,
+ colframe=blue,
+             		   colback=white,
+               	underlay={\begin{tcbclipinterior}
+                  \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                  \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                 ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                  \end{tcbclipinterior}}]
+                      \begin{tcolorbox}[boxrule=0mm,
+                          colframe=white,
+                           grow to left by=2mm,
+                           grow to right by=2mm,
+                           left=0pt,right=0pt,top=-3pt,
+                           colback=white,
+                           arc is angular,
+                           arc=2pt]
+                     { \fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 4}.}  
+                     #5
+              \end{tcolorbox}
+        \end{tcolorbox}       
+      %%%=============cột thứ năm=============%%%
+        \switchcolumn
+        \begin{tcolorbox}[breakable,enhanced,arc is angular,
+                		arc=2pt,boxrule=0.35mm,
+                    before skip=0pt,
+          			left=1mm,right=1mm,
+          			top=3pt,bottom=3pt,
+                		height=#1,
+ colframe=blue,
+              		 colback=white,
+                	underlay={\begin{tcbclipinterior}
+                   \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                   \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                  ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                   \end{tcbclipinterior}}]
+                       \begin{tcolorbox}[boxrule=0mm,
+                           colframe=white,
+                            grow to left by=2mm,
+                            grow to right by=2mm,
+                            left=0pt,right=0pt,top=-3pt,
+                            colback=white,
+                            arc is angular,
+                            arc=2pt]
+                      { \fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 5}.}  
+                      #6
+               \end{tcolorbox}
+         \end{tcolorbox}       
+       %%%===========cột thứ sau==============%%%
+    \switchcolumn
+       \begin{tcolorbox}[breakable,enhanced,arc is angular,
+               		arc=2pt,boxrule=0.35mm,
+         			left=1mm,right=1mm,
+                    before skip=0pt,
+         			top=3pt,bottom=3pt,
+               		height=#1,
+ colframe=blue,
+             		   colback=white,
+               	underlay={\begin{tcbclipinterior}
+                  \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                  \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                 ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                  \end{tcbclipinterior}}]
+                      \begin{tcolorbox}[boxrule=0mm,
+                          colframe=white,
+                           grow to left by=2mm,
+                           grow to right by=2mm,
+                           left=0pt,right=0pt,top=-3pt,
+                           colback=white,
+                           arc is angular,
+                           arc=2pt]
+                     { \fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 6}.}  
+                     #7
+              \end{tcolorbox}
+        \end{tcolorbox}               
+ \end{paracol}          
+}
+
+%%%========================================================%%%
+\newcommand{\dauchamtamo}[9][7cm]{%
+\begin{paracol}{2}
+    %%%=============cột thứ nhất=============%%%
+      \begin{tcolorbox}[breakable,enhanced,arc is angular,
+              		arc=2pt,boxrule=0.35mm,
+        			left=1mm,right=1mm,
+        			top=3pt,bottom=3pt,
+              		height=#1,
+ colframe=blue,
+            		 colback=white,
+              	underlay={\begin{tcbclipinterior}
+                 \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                 \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                 \end{tcbclipinterior}}]
+                     \begin{tcolorbox}[boxrule=0mm,
+                         colframe=white,
+                          grow to left by=2mm,
+                          grow to right by=2mm,
+                          left=0pt,right=0pt,top=-3pt,
+                          colback=white,
+                          arc is angular,
+                          arc=2pt]
+                    {\fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 1}.}  
+                    #2
+             \end{tcolorbox}
+       \end{tcolorbox}       
+     %%%===========cột thứ hai==============%%%
+  \switchcolumn
+     \begin{tcolorbox}[breakable,enhanced,arc is angular,
+             		arc=2pt,boxrule=0.35mm,
+       				left=1mm,right=1mm,
+       				top=3pt,bottom=3pt,
+             		height=#1,
+ colframe=blue,
+           		   colback=white,
+             	underlay={\begin{tcbclipinterior}
+                \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+               ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                \end{tcbclipinterior}}]
+                    \begin{tcolorbox}[boxrule=0mm,
+                        colframe=white,
+                         grow to left by=2mm,
+                         grow to right by=2mm,
+                         left=0pt,right=0pt,top=-3pt,
+                         colback=white,
+                         arc is angular,
+                         arc=2pt]
+                   {\fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 2}.}  
+                   #3
+            \end{tcolorbox}
+      \end{tcolorbox}       
+      %%%=============cột thứ ba=============%%%
+        \switchcolumn
+        \begin{tcolorbox}[breakable,enhanced,arc is angular,
+                		arc=2pt,boxrule=0.35mm,
+                    before skip=0pt,
+          			left=1mm,right=1mm,
+          			top=3pt,bottom=3pt,
+                		height=#1,
+ colframe=blue,
+              		 colback=white,
+                	underlay={\begin{tcbclipinterior}
+                   \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                   \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                  ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                   \end{tcbclipinterior}}]
+                       \begin{tcolorbox}[boxrule=0mm,
+                           colframe=white,
+                            grow to left by=2mm,
+                            grow to right by=2mm,
+                            left=0pt,right=0pt,top=-3pt,
+                            colback=white,
+                            arc is angular,
+                            arc=2pt]
+                      {\fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 3}.}  
+                      #4
+               \end{tcolorbox}
+         \end{tcolorbox}       
+       %%%===========cột thứ tư==============%%%
+    \switchcolumn
+       \begin{tcolorbox}[breakable,enhanced,arc is angular,
+               		arc=2pt,boxrule=0.35mm,
+         			left=1mm,right=1mm,
+                    before skip=0pt,
+         			top=3pt,bottom=3pt,
+               		height=#1,
+ colframe=blue,
+             		   colback=white,
+               	underlay={\begin{tcbclipinterior}
+                  \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                  \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                 ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                  \end{tcbclipinterior}}]
+                      \begin{tcolorbox}[boxrule=0mm,
+                          colframe=white,
+                           grow to left by=2mm,
+                           grow to right by=2mm,
+                           left=0pt,right=0pt,top=-3pt,
+                           colback=white,
+                           arc is angular,
+                           arc=2pt]
+                     {\fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 4}.}  
+                     #5
+              \end{tcolorbox}
+        \end{tcolorbox}       
+      %%%=============cột thứ năm=============%%%
+        \switchcolumn
+        \begin{tcolorbox}[breakable,enhanced,arc is angular,
+                		arc=2pt,boxrule=0.35mm,
+                    before skip=0pt,
+          			left=1mm,right=1mm,
+          			top=3pt,bottom=3pt,
+                		height=#1,
+ colframe=blue,
+              		 colback=white,
+                	underlay={\begin{tcbclipinterior}
+                   \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                   \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                  ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                   \end{tcbclipinterior}}]
+                       \begin{tcolorbox}[boxrule=0mm,
+                           colframe=white,
+                            grow to left by=2mm,
+                            grow to right by=2mm,
+                            left=0pt,right=0pt,top=-3pt,
+                            colback=white,
+                            arc is angular,
+                            arc=2pt]
+                      {\fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 5}.}  
+                      #6
+               \end{tcolorbox}
+         \end{tcolorbox}       
+       %%%===========cột thứ sau==============%%%
+    \switchcolumn
+       \begin{tcolorbox}[breakable,enhanced,arc is angular,
+               		arc=2pt,boxrule=0.35mm,
+         			left=1mm,right=1mm,
+                    before skip=0pt,
+         			top=3pt,bottom=3pt,
+               		height=#1,
+ colframe=blue,
+             		   colback=white,
+               	underlay={\begin{tcbclipinterior}
+                  \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                  \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                 ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                  \end{tcbclipinterior}}]
+                      \begin{tcolorbox}[boxrule=0mm,
+                          colframe=white,
+                           grow to left by=2mm,
+                           grow to right by=2mm,
+                           left=0pt,right=0pt,top=-3pt,
+                           colback=white,
+                           arc is angular,
+                           arc=2pt]
+                     {\fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 6}.}  
+                     #7
+              \end{tcolorbox}
+        \end{tcolorbox}         
+      %%%=============cột thứ bảy=============%%%
+        \switchcolumn
+        \begin{tcolorbox}[breakable,enhanced,arc is angular,
+                		arc=2pt,boxrule=0.35mm,
+                    before skip=0pt,
+          			left=1mm,right=1mm,
+          			top=3pt,bottom=3pt,
+                		height=#1,
+ colframe=blue,
+              		 colback=white,
+                	underlay={\begin{tcbclipinterior}
+                   \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                   \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                  ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                   \end{tcbclipinterior}}]
+                       \begin{tcolorbox}[boxrule=0mm,
+                           colframe=white,
+                            grow to left by=2mm,
+                            grow to right by=2mm,
+                            left=0pt,right=0pt,top=-3pt,
+                            colback=white,
+                            arc is angular,
+                            arc=2pt]
+                      {\fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 7}.}  
+                      #8
+               \end{tcolorbox}
+         \end{tcolorbox}       
+       %%%===========cột thứ tam==============%%%
+    \switchcolumn
+       \begin{tcolorbox}[breakable,enhanced,arc is angular,
+               		arc=2pt,boxrule=0.35mm,
+         			left=1mm,right=1mm,
+                    before skip=0pt,
+         			top=3pt,bottom=3pt,
+               		height=#1,
+ colframe=blue,
+             		colback=white,
+               	underlay={\begin{tcbclipinterior}
+                  \tikzset{daucham/.style={dash pattern=on .9 mm off  0.6 mm, line cap=round}}
+                  \draw[daucham,line width=0.5pt,xstep=80,ystep=0.85,color=gray!70]
+                 ([shift={(0,-5pt)}]interior.north west) grid (interior.south east);	
+                  \end{tcbclipinterior}}]
+                      \begin{tcolorbox}[boxrule=0mm,
+                          colframe=white,
+                           grow to left by=2mm,
+                           grow to right by=2mm,
+                           left=0pt,right=0pt,top=-3pt,
+                           colback=white,
+                           arc is angular,
+                           arc=2pt]
+                     {\fontfamily{qag}\bfseries\selectfont \relscale{0.9}{Luyện tập 8}.}  
+                     #9
+              \end{tcolorbox}
+        \end{tcolorbox}                       
+ \end{paracol}          
+}
+
+%%%====================Chen hinh===========================%%%
+\usepackage{wrapfig}
+\newcommand{\chenhinh}[3][0]{%
+\vspace*{\glueexpr-0.65\baselineskip + 0pt plus 7pt minus 5pt\relax}
+\vspace*{#1 cm}
+	%%%Tính số dòng cần chèn
+	\sbox0{#3}
+	\sbox1{\begin{minipage}{10cm}
+	#2
+	\end{minipage}}
+ \ifnum\ht1>\ht0	
+	\pgfmathsetmacro{\nsodong}{int(round((\ht0-\fboxsep)/(\baselineskip))+1)}
+		\par\noindent
+		\begingroup
+		\begin{minipage}{\linewidth}
+		\begin{wrapfigure}[\nsodong]{R}[1pt]{\wd0}
+		  \vspace*{-3pt}
+		  {#3}
+		\end{wrapfigure}
+		 #2
+	   	\end{minipage}
+	   	\endgroup
+\else
+\par\noindent 		
+\begingroup
+\begin{minipage}[t]{\dimexpr\linewidth-\wd0-3pt\relax}
+ 	 	  \vspace*{0pt}
+ 		 #2
+ 	   	\end{minipage}~\begin{minipage}[t]{\wd0}
+ 	   	 	 	    \vspace*{-3pt}
+ 	   	 	 	   	 		  {#3}
+ 	   	 	 	  \end{minipage}
+ 	 \endgroup
+\fi
+}
+
+\newcommand{\chenhinhT}[3][0]{%
+\vspace*{\glueexpr-0.65\baselineskip + 0pt plus 5pt minus 5pt\relax}
+\vspace*{#1 cm}
+	%%%Tính số dòng cần chèn
+	\sbox0{#3}
+	\sbox1{\begin{minipage}{10cm}
+	#2
+	\end{minipage}}
+ \ifnum\ht1>\ht0	
+	\pgfmathsetmacro{\nsodong}{int(round((\ht0-\fboxsep)/(\baselineskip))+1)}
+		\par\noindent
+		\begingroup
+		\begin{minipage}{\linewidth}
+		\begin{wrapfigure}[\nsodong]{L}[1pt]{\wd0}
+		  \vspace*{-3pt}
+		  {#3}
+		\end{wrapfigure}
+		 #2
+	   	\end{minipage}
+	   	\endgroup
+\else
+\par\noindent
+ 		\begingroup
+  	   \begin{minipage}[t]{\wd0}
+ 	 	    \vspace*{-3pt}
+ 	 	   	 		  {#3}
+ 	 	  \end{minipage}~\begin{minipage}[t]{\dimexpr\linewidth-\wd0-3pt\relax}
+ 	 	  \vspace*{0pt}
+ 		 #2
+ 	   	\end{minipage}
+ 	 \endgroup
+\fi
+}

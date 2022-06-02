@@ -1,0 +1,68 @@
+\def\cao{1.7}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[CO]{%
+\begin{tikzpicture}[overlay, remember picture]%
+\begin{scope}
+	\clip (current page.north west)  rectangle ($(current page.north east)+(0,-1.5*\cao)$);
+	%Đường trên trên
+     \draw[line width=0.8pt] ($ (current page.north west)-(1cm,0.9*\cao)$) -- +(1.132*\textwidth,0) coordinate(A)--([turn]-60:0.36*\cao)--+(0.56*\cao,0)--([turn]60:0.36*\cao) coordinate(B)--+(0.3*\textwidth,0);
+%     Đường kẽ dưới
+     \draw[line width=0.8pt] ($ (current page.north west)-(1cm,0.94*\cao)$) -- +(1.138*\textwidth,0)  
+     --([turn]-60:0.26*\cao)--+(0.524*\cao,0)--([turn]60:0.26*\cao) --+(0.3*\textwidth,0);
+	%Node chương
+    \node[anchor=north west, inner sep=0mm, shift={(2cm,-0.55*\cao)},text width=0.9*\textwidth] at ([xshift=0.2cm]current page.north west) {
+    {\it\leftmark}}; 
+  	%Node trang
+   \node[draw,regular polygon,regular polygon sides=6,inner sep=2pt, outer sep =5mm,minimum size=0.95*\cao cm,line width=1pt] at 
+   ([yshift=9pt,xshift=-0.25pt]$0.5*(A)+0.5*(B)$) {\fontfamily{qhv}\selectfont\bfseries\thepage};	
+\end{scope}
+\end{tikzpicture}
+} 
+
+\fancyhead[CE]{%
+\begin{tikzpicture}[overlay, remember picture]%
+\begin{scope}
+	\clip (current page.north west)  rectangle ($(current page.north east)+(0,-1.5*\cao)$);
+	%Đường trên trên
+	\draw[line width=0.8pt] ($ (current page.north east)-(-1cm,0.9*\cao)$) -- +(-1.132*\textwidth,0) coordinate(A) %
+	--([turn]60:0.36*\cao)--+(-0.56*\cao,0)--([turn]-60:0.36*\cao) coordinate(B)--+(-0.3*\textwidth,0);
+	%Đường kẽ dưới
+	\draw[line width=0.8pt] ($ (current page.north east)+(1cm,-0.94*\cao)$) -- +(-1.138*\textwidth,0)--([turn]60:0.26*\cao)--+(-0.524*\cao,0)--([turn]-60:0.26*\cao) --+(-0.3*\textwidth,0);
+	%Node chương
+	\node[anchor=north east, inner sep=0mm, shift={(-2cm,-0.55*\cao)},text width=0.925\linewidth,align=right] at ([xshift=-0.1cm]current page.north east){\itshape\rightmark}; 
+	%Node trang
+	\node[draw,regular polygon,regular polygon sides=6,inner sep=2pt , outer sep =5mm,minimum size=0.95*\cao cm,line width=1pt] at 
+	([yshift=9pt, xshift = 0.26pt]$0.5*(A)+0.5*(B)$) {\fontfamily{qhv}\selectfont\bfseries\thepage};	
+\end{scope}
+\end{tikzpicture}
+}
+
+
+
+
+\fancyfoot[CO]{% 
+    \begin{tikzpicture}[overlay, remember picture]%
+    \clip (current page.south west) rectangle ($(current page.south east)+(0,1.5*\cao)$);  
+    %Đường trên
+    \draw[line width=0.8pt] ($(current page.south west)+(0,0.55*\cao)$) -- +(2.65*\cao,0) -- ([turn]60:0.4*\cao)--+(1.3*\textwidth,0); 
+    %Đường kẽ dưới
+	\draw[line width=0.8pt] ($(current page.south west)+(0,0.25*\cao)$) -- +(2.42*\cao,0) -- ([turn]60:0.7*\cao)--+(1.3*\textwidth,0); 
+     %Chữ footer 
+	\node[anchor=south, minimum size=.5in, yshift=0.01cm ] at ([xshift=1cm]current page.south)
+    {\it\tieudeduoi};
+\end{tikzpicture}
+}
+
+\fancyfoot[CE]{% 
+    \begin{tikzpicture}[overlay, remember picture]%
+    \clip (current page.south west) rectangle ($(current page.south east)+(0,1.5*\cao)$);  
+    %Đường kẻ trên
+    \draw[line width=0.8pt] ($(current page.south east)+(0,0.55*\cao)$) -- +(-2.65*\cao,0) -- ([turn]-60:0.4*\cao)-- +(-1.3*\textwidth,0); 
+    %Đường kẻ dưới
+	\draw[line width=0.8pt] ($(current page.south east)+(0,0.25*\cao)$) -- +(-2.42*\cao,0) -- ([turn]-60:0.7*\cao)-- +(-1.3*\textwidth,0);  
+    %Chữ footer 
+    \node[anchor=south, minimum size=.5in, yshift=0.01cm ] at ([xshift=-1cm]current page.south)
+    {\it\tieudeduoi};
+\end{tikzpicture}
+}

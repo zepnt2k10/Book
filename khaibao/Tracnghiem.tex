@@ -1,0 +1,395 @@
+\usepackage{mathrsfs}  
+\usepackage{ifthen}
+\usepackage{etoolbox}
+\usepackage{intcalc}%Tính mod
+\usepackage{forloop}
+%\usepackage{catchfile}%đưa file vào văn bản ngay lập tức
+\newcounter{ex}[section]%số câu hỏi
+\newcounter{dapan}[ex] %Số thứ tự a, b, c, d để đưa vào đáp án
+\newcounter{numTrue}[ex]%Số thứ tự đáp án của câu
+\newcommand{\dotEX}{.}%dấu kết thúc mỗi phương án
+\newbool{bltracnghiem}%Kiểm tra có phải trắc nghiệm không
+%%%==========khoanh đáp án===========%%%
+\newcommand\excircled[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,line width=0.65pt,
+inner sep=1pt,fill=cyan!15,
+minimum size =13pt,font=\fontfamily{pag}\fontsize{9.5pt}{10pt}\selectfont] (char){#1};}}
+\newcommand\excircledda[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,line width=0.65pt,
+inner sep=1pt,fill=orange!15,
+minimum size =13pt,font=\fontfamily{pag}\fontsize{10pt}{10pt}\bfseries\selectfont] (char){\color{orange}#1};}}
+\newcommand\excircledxanh[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,line width=0.65pt,
+inner sep=1pt,fill=blue!15,
+minimum size =13pt,font=\fontfamily{pag}\fontsize{10pt}{10pt}\bfseries\selectfont] (char){\color{blue}#1};}}
+%%%==========môi trường ex==========%%%
+%\AtBeginEnvironment{ex}{\vspace*{-1.25\parskip}}
+\newcommand{\exhead}[1][]{\par\noindent\refstepcounter{ex}
+%Thông tin đầu câu trắc nghiệm
+%{\fontfamily{pag}\fontsize{11pt}{13pt}\selectfont\bfseries Câu \arabic{chapter}.\arabic{section}.\arabic{ex}.}\
+{\fontfamily{pag}\fontsize{11pt}{12pt}\selectfont\bfseries Câu \arabic{ex}.\ignorespaces
+\ifthenelse{\equal{#1}{}}{}{{\color{blue}(\textit{#1})}}}
+\global\setbool{bltracnghiem}{true}
+}%khai báo của môi trường ex
+\newcommand{\exend}{%Kết thúc môi trường trắc nghiệm
+\renewcommand{\loigiai}[1]{\begin{Answer}
+	{\noindent{\small\color{blue}\usefont{T5}{HLButlong}{m}{n} \dauloigiaitracnghiem}
+	##1\par\noindent
+	Chọn đáp án \excircledda{\Alph{numTrue}}
+  	}
+ \end{Answer}
+}
+\renewcommand{\exend}{\shipoutAnswer}}%Kết thúc môi trường trắc nghiệm
+%\newcommand{\indapan}{\shipoutAnswer}
+\newcommand{\dapansaucauhoi}{
+\renewcommand{\loigiai}[1]{\begin{Answer}
+	{\noindent{\small\color{blue}\usefont{T5}{HLButlong}{m}{n} \dauloigiaitracnghiem}
+	##1\par\noindent
+	Chọn đáp án \excircledda{\Alph{numTrue}}
+  	}
+ \end{Answer}
+}
+\renewcommand{\exend}{\shipoutAnswer}
+\renewcommand{\exbend}{\medskip\shipoutAnswer}}
+\newcommand{\khongindapansaucauhoi}{
+\renewcommand{\loigiai}[1]{\begin{Answer}
+	{\noindent{\small\color{blue}\usefont{T5}{HLButlong}{m}{n} \dauloigiaitracnghiem}
+	##1\par\noindent
+	Chọn đáp án \excircledda{\Alph{numTrue}}
+  	}
+ \end{Answer}
+}
+\renewcommand{\exend}{}}
+\newcommand{\khongluuloigiai}{\renewcommand{\loigiai}{}}
+%%%================Môi trường ex================%%%
+\newenvironment{ex}[1][]{\par\noindent\refstepcounter{ex}\ignorespaces
+%%%===phần tiêu đầu câu
+{\fontfamily{pag}\fontsize{11pt}{12pt}\selectfont\bfseries Câu \arabic{ex}.}
+%%%===phần ghi chú câu
+\ifthenelse{\equal{#1}{}}{}{{\color{blue}(\textit{#1})}}
+\global\setbool{bltracnghiem}{true}
+\global\setbool{blbaitap}{false}
+\global\setbool{blvd}{false}}{\exend}
+%%%%%%%Tự động chọn \motcot, \haicot, \boncot
+     	\newlength\widthcha
+        \newlength\widthchb
+        \newlength\widthchc
+        \newlength\widthchd
+        \newlength\widthch
+        \newlength\tabmaxwidth
+        \newlength\fourthtabwidth
+        \newlength\halftabwidth
+        \newlength\fifthtabwidth
+        \newlength\thirdtabwidth
+\setlength\fourthtabwidth{\dimexpr0.225\linewidth-0.25\tabex-30pt\relax}
+\setlength\halftabwidth{\dimexpr 0.475\linewidth-0.5\tabex-20pt\relax}
+\newcommand{\choice}[4]{
+\settowidth\widthch{#1}
+\settowidth\widthchb{#2}
+\ifdim\widthch<\widthchb\relax\setlength{\widthch}{\widthchb}\fi%
+\settowidth\widthchc{#3}%
+\ifdim\widthch<\widthchc\relax\setlength{\widthch}{\widthchc}\fi%
+\settowidth\widthchd{#4}%
+\ifdim\widthch<\widthchd\relax\setlength{\widthch}{\widthchd}\fi%
+\ifdim\widthch<\fourthtabwidth
+     \boncot{#1}{#2}{#3}{#4}
+      \else\ifdim\widthch<\halftabwidth
+          \haicot{#1}{#2}{#3}{#4}
+        \else
+          \motcot{#1}{#2}{#3}{#4}
+      \fi
+\fi}
+
+\newcommand{\boncot}[4]{
+	\setlength{\topsep}{0pt}%
+   \setlength{\partopsep}{0pt}%
+  \begin{tabbing}
+  \hspace*{\tabex}\=
+  \hspace*{\dimexpr0.25\linewidth-0.25\tabex\relax}
+  \=\hspace*{\dimexpr0.25\linewidth-0.25\tabex\relax}
+  \=\hspace*{\dimexpr0.25\linewidth-0.25\tabex\relax}
+  \=\kill
+  \phantom{a}\>
+  \refstepcounter{dapan}\excircled{A} #1\dotEX
+  \>
+  \refstepcounter{dapan}\excircled{B} #2\dotEX
+  \>
+ \refstepcounter{dapan}\excircled{C} #3\dotEX
+  \>
+ \refstepcounter{dapan}\excircled{D} #4\dotEX\vspace*{-1.25\parskip}
+\end{tabbing}
+%\end{center}
+}
+   
+\newcommand{\haicot}[4]{
+ \setlength{\topsep}{0pt}%
+ \setlength{\partopsep}{0pt}%
+ \begin{tabbing}
+ \hspace*{\tabex}\= \hspace*{\dimexpr0.5\linewidth-0.5\tabex+6pt\relax}\=\kill
+  \phantom{a}\>\refstepcounter{dapan}\excircled{A} #1\dotEX\>
+   \refstepcounter{dapan}\excircled{B} #2\dotEX\\ 
+  \phantom{a}\>\refstepcounter{dapan}\excircled{C} #3\dotEX\>
+    \refstepcounter{dapan}\excircled{D} #4\dotEX\vspace*{-1.25\parskip}
+\end{tabbing}
+ }
+\newcommand{\motcot}[4]{
+ \par\noindent
+\hspace*{\tabex}\refstepcounter{dapan}\excircled{A} #1\dotEX\\
+\hspace*{\tabex}\refstepcounter{dapan}\excircled{B} #2\dotEX\\ 
+\hspace*{\tabex}\refstepcounter{dapan}\excircled{C} #3\dotEX\\
+\hspace*{\tabex}\refstepcounter{dapan}\excircled{D} #4\dotEX
+  }
+
+%%%===========in đáp án==============%%%
+\def\alist{}
+\def\True{\ignorespaces\setcounter{numTrue}{\thedapan}{\ifnum\value{numTrue}=1 \listgadd{\alist}{A}\fi
+	\ifnum\value{numTrue}=2 \listgadd{\alist}{B}\fi
+	\ifnum\value{numTrue}=3 \listgadd{\alist}{C}\fi
+	\ifnum\value{numTrue}=4 \listgadd{\alist}{D}\fi}} 
+\renewcommand{\loigiai}[1]{\begin{Answer}
+\ifbool{bltracnghiem}
+	{\noindent{\small\color{blue}\usefont{T5}{HLButlong}{m}{n} \dauloigiaitracnghiem}
+	#1\par\noindent
+	Chọn đáp án \excircledda{\Alph{numTrue}}
+  	}
+  	{
+  	\begingroup
+  	#1
+  	\endgroup
+  	}
+ \end{Answer}
+}
+%%%===============In đáp án ra bảng=================%%%
+%\newcounter{itemcount}
+%\renewcommand*{\do}[1]
+% {\refstepcounter{itemcount} #1}
+%\dolistloop{\alist}
+
+%%%=================môi trường task================%%%
+%\usepackage{tasks}
+%\settasks{
+%  item-indent =\dimexpr \parindent+\parindent, 
+%  before-skip = -1.5pt , % undo paragraph skip
+%  after-skip =-2pt , % undo paragraph skip
+%  after-item-skip =-2pt% undo paragraph skip
+%}
+%\AtBeginEnvironment{tasks}
+%	{\mbox{}\vspace*{\dimexpr -\baselineskip+3mm}}
+%	
+%%=================Bảng đáp án=================%%
+\newcounter{itemcount}
+\def\bangdapan{
+\begin{center}
+	\begin{tcolorbox}[enhanced,hbox,
+			left=8mm,right=8mm,boxrule=0.4pt,
+			colback=white,colframe=blue,
+			%drop fuzzy midday shadow=black!50!yellow,
+			drop lifted shadow=black!50!yellow,arc is angular,
+			before=\par\vspace*{-1mm},after=\par\bigskip]
+			{\bfseries\color{blue}\fontfamily{qag}\selectfont ĐÁP ÁN BÀI \arabic{section}} 
+		\end{tcolorbox}
+		\vspace*{-0.5cm}
+\end{center}
+
+\setcounter{itemcount}{0}
+ \renewcommand*{\do}[1]{\refstepcounter{itemcount} 
+ {\makebox[22pt][l]{\ifthenelse{\value{itemcount}<10}
+ {\phantom{.}\theitemcount}{\theitemcount}.}~{\fontfamily{qag}\selectfont\color{blue}##1}}\ignorespaces
+ \ifthenelse{\equal{\value{itemcount}}{\value{ex}}}{.}{,}
+ \ifthenelse{\equal{\intcalcMod{\value{itemcount}}{10}}{0}}
+   {\newline}{}
+ }
+\noindent\dolistloop{\alist}}
+%%=================Bảng đáp án dạng hộp=================%%
+\newcounter{itemcounth}
+\def\bangdapanhop{
+\begin{center}
+	\begin{tcolorbox}[enhanced,hbox,
+			left=8mm,right=8mm,boxrule=0.4pt,
+			colback=white,colframe=blue,
+			%drop fuzzy midday shadow=black!50!yellow,
+			drop lifted shadow=black!50!yellow,arc is angular,
+			before=\par\vspace*{-1mm},after=\par\bigskip]
+			{\bfseries\color{blue}\fontfamily{qag}\selectfont ĐÁP ÁN BÀI \arabic{section}} 
+		\end{tcolorbox}
+		\vspace*{-0.5cm}
+\end{center}
+
+\setlength{\fboxrule}{1pt}
+\setcounter{itemcounth}{0}
+ \renewcommand*{\do}[1]{\refstepcounter{itemcounth} 
+ \fcolorbox{blue}{cyan!10}{\makebox[1cm][c]{
+ {\theitemcounth.}\ignorespaces{\fontfamily{qag}\bfseries\selectfont\color{violet}##1 }}}
+ \ifthenelse{\equal{\intcalcMod{\value{itemcounth}}{10}}{0}}
+ {\par\noindent\ignorespaces}{}
+ }
+\noindent\dolistloop{\alist}}
+%
+%\begin{center}
+%{\fontfamily{qag}\selectfont Đáp án dạng danh sách, dùng đưa vào các ứng dụng chấm điểm}
+%\end{center}
+%\renewcommand*{\do}[1]
+% {\refstepcounter{itemcount} 
+% \ifthenelse{\equal{\value{itemcount}}{\value{ex}}}
+% {#1.}
+% {#1,}
+% }
+% \setcounter{itemcount}{0}
+%\noindent\dolistloop{\alist}
+
+%%%=====================khung trac nghiem=====================%%%
+\newtcolorbox{vdbox}[2][]{
+	enhanced,
+	before skip=2mm,after skip=2mm,
+	top=2pt,bottom=5pt,left=6pt,right=3pt,
+	colback=nencl,colbacktitle=nencl,
+	colframe=khungcl,
+	boxrule=0.2mm, %width=0.95\linewidth,
+	attach boxed title to top left={xshift=1cm,yshift*=1mm-\tcboxedtitleheight},
+	varwidth boxed title*=-3cm,
+	boxed title style={
+		frame code={
+			\draw[color=khungcl,line width=0.2mm,fill=black!30]
+			([yshift=-1mm,xshift=-1mm]frame.north west)
+			arc[start angle=0,end angle=180,radius=1mm]
+			([yshift=-1mm,xshift=1mm]frame.north east)
+			arc[start angle=180,end angle=0,radius=1mm];
+			\draw[color=khungcl,fill=nencl,line width=0.2mm]
+			([xshift=-2mm]frame.north west) -- ([xshift=2mm]frame.north east)
+			[rounded corners=1mm]--
+			([xshift=1mm,yshift=-1mm]frame.north east) -- (frame.south east) --
+			(frame.south west) -- ([xshift=-1mm,yshift=-1mm]frame.north west)
+			[sharp corners]-- cycle;
+		},
+		interior engine=empty,
+	},
+	fonttitle=\fontfamily{pag}\fontsize{11pt}{11pt}\bfseries\selectfont\color{blue},
+	title={#2},#1
+}
+%%%=====================Het khung trac nghiem=====================%%%
+%%%==============Moi truong vdex===============%%%
+\newcommand{\exbend}{\end{vdbox}}
+\newenvironment{exb}[1][]{\refstepcounter{ex}
+\ifthenelse{\equal{#1}{}}{\begin{vdbox}{\tieudeboxvd\ \theex}}
+{\begin{vdbox}{\tieudeboxvd\ \theex\ {\mdseries({\small\textit{#1}})}}}
+\global\setbool{bltracnghiem}{true}\global\setbool{blvd}{false}
+\global\setbool{blbaitap}{false}}
+{\exbend}
+%%%==============Hết moi truong vdex===============%%%
+
+ 
+%%%============Tạo dòng kẻ 22/7=============%%%
+\newcommand{\exbdongke}{}
+\newcommand{\dongke}[1][5]{
+	\renewcommand{\exbdongke}{
+		\par\vspace*{2pt}\foreach \k in {1,...,#1}
+			{\par\vspace*{2pt}\noindent\makebox[\linewidth]{\dotfill}}
+	}
+}
+%%%============Het tạo dòng kẻ 22/7=============%%%
+
+%%%============Lenh hien thi dap an=============%%%
+\newcommand{\hienthidapan}{
+	\renewcommand{\exbdongke}{}
+	\renewcommand{\loigiai}[1]{\ifbool{blvd}{
+		\renewcommand{\boxend}{\end{tcolorbox}\vspace*{-\baselineskip}\begin{center}
+			{\color{blue}\fontfamily{qag}\bfseries\selectfont Lời giải} 
+			\end{center}
+			\vspace*{-0.8\baselineskip}
+			\begingroup
+			\hspace*{\parindent}##1
+			\endgroup}
+		 }{\ifbool{blbaitap}{
+		 		\renewcommand{\boxendbt}{\end{tcolorbox}\vspace*{-\baselineskip}\begin{center}
+		 			{\color{blue}\fontfamily{qag}\bfseries\selectfont Hướng dẫn giải} 
+		 			\end{center}
+		 			\vspace*{-0.8\baselineskip}
+		 			\begingroup
+		 			\hspace*{\parindent}##1
+		 			\endgroup}
+		 	 }{\ifbool{bltracnghiem}{
+		 	 		 		\renewcommand{\exend}{\noindent{\small\color{blue}\usefont{T5}{HLButlong}{m}{n} \dauloigiaitracnghiem}
+		 	 		 				##1\par\noindent
+		 	 		 				Chọn đáp án \excircledda{\Alph{numTrue}}
+		 	 		 			}
+		 	 		 	  \renewcommand{\exbend}{\end{vdbox}\noindent{\small\color{blue}\usefont{T5}{HLButlong}{m}{n} \dauloigiaitracnghiem}
+		 	 		 	  		 	 	##1\par\noindent
+		 	 		 	  		 	 	Chọn đáp án \excircledda{\Alph{numTrue}}
+		 	 		 	  		 	}
+		 	 }{}}		 
+		 }
+	}
+}
+%%%============Hết lenh hien thi dap an=============%%%
+%%%============Lenh luu dap an=============%%%
+\makeatletter
+\newcommand{\loigiai@aux}[2]{}
+\newcommand{\luudapan}{ 
+\ifbool{blvd}{ %truong hop vi 
+		\renewcommand{\loigiai}[1]{%
+		  \@bsphack\expandafter\loigiai@aux\expandafter{\expanded{\thevd}}{##1}\@esphack
+		}
+		\renewcommand{\loigiai@aux}[2]{%
+		  \begin{collect}{vdcol}{\par\noindent{\color{blue}\fontfamily{qag}\bfseries
+		  	\small\selectfont  VD ##1}.\ignorespaces}{}{}{} 
+			##2%
+		  \end{collect}
+		}
+	\renewcommand{\boxend}{\end{tcolorbox}\exbdongke}
+	}{\ifbool{blbaitap}{ % truong hop bai tap
+			\renewcommand{\loigiai}[1]{%
+			  \@bsphack\expandafter\loigiai@aux\expandafter{\expanded{\thebt}}{##1}\@esphack
+			}
+			\renewcommand{\loigiai@aux}[2]{%
+			  \begin{collect}{btcol}{\par\noindent{\color{blue}\fontfamily{qag}\bfseries
+			  	\small\selectfont  BT ##1}.\ignorespaces}{}{}{} 
+				##2%
+			  \end{collect}
+			}
+		\renewcommand{\boxendbt}{\end{tcolorbox}\exbdongke}
+		}{\ifbool{bltracnghiem}{ % truong hop bai tap
+					\renewcommand{\loigiai}[1]{%
+					  \@bsphack\expandafter\loigiai@aux\expandafter{\expanded{\theex.\Alph{numTrue}}}{##1}\@esphack
+					}
+					\renewcommand{\loigiai@aux}[2]{%
+					  \begin{collect}{excol}{\par\noindent{\color{blue}\fontfamily{qag}\bfseries
+					  	\small\selectfont  TN ##1}.\ignorespaces}{}{}{} 
+						##2
+					  \end{collect}
+					}
+				\renewcommand{\exend}{\exbdongke} 
+			    \renewcommand{\exbend}{\end{vdbox}\exbdongke} 
+				}{}
+		}
+	}
+}
+\makeatother
+
+%%%============Hết lenh luu dap an=============%%%
+
+%%%============Lenh in dap an vi du=============%%%
+\newcommand{\dapanvidu}{
+\begin{center}
+%{\color{blue}\usefont{T5}{HLButlong}{m}{n} ĐÁP ÁN VÍ DỤ}
+{\color{blue}\bfseries\fontfamily{ugq}\selectfont ĐÁP ÁN VÍ DỤ}
+\end{center}
+\vspace*{-\baselineskip}
+\includecollection{vdcol}}
+%%%============Hết lenh in dap an vi du=============%%%
+
+%%%============Lenh in dap an bai tap=============%%%
+\newcommand{\dapanbaitap}{
+\begin{center}
+%{\color{blue}\usefont{T5}{HLButlong}{m}{n} ĐÁP ÁN VÍ DỤ}
+{\color{blue}\bfseries\fontfamily{ugq}\selectfont ĐÁP ÁN BÀI TẬP}
+\end{center}
+\vspace*{-\baselineskip}
+\includecollection{btcol}}
+%%%============Hết lenh in dap an bai tap=============%%%
+
+%%%============Lenh in dap an bai tap=============%%%
+\newcommand{\dapantracnghiem}{
+\begin{center}
+%{\color{blue}\usefont{T5}{HLButlong}{m}{n} ĐÁP ÁN VÍ DỤ}
+{\color{blue}\bfseries\fontfamily{ugq}\selectfont ĐÁP ÁN TRẮC NGHIỆM}
+\end{center}
+\vspace*{-\baselineskip}
+\includecollection{excol}}
+%%%============Hết lenh in dap an bai tap=============%%%

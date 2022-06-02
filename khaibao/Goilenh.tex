@@ -1,0 +1,137 @@
+\usepackage{picture} %Công cụ tạo header dọc trang (quay header)
+\usepackage{cite}
+\usepackage{ifthen}
+\usepackage{amsmath,amssymb,pb-diagram}
+\usepackage{comment}
+\usepackage{multirow}
+\usepackage{indentfirst}
+%\usepackage[paperwidth=16.2cm,paperheight=24.2cm,top=1.75cm,bottom=1.5cm,left=1.75cm,right=1.5cm, includefoot=false,includehead=false]{geometry}
+\usepackage[width=19.40cm, height=26.90cm, left=2.20cm, right=2.20cm, top=2.20cm, bottom=2.20cm]{geometry}
+\setlength{\parindent}{0.6cm}
+\setlength{\parskip}{5pt}
+\linespread{1.5}  % dãn dòng
+\usepackage[svgnames,table]{xcolor}
+\usepackage[all]{xy}
+\usepackage{bbding}
+\usepackage{stmaryrd}
+\usepackage{multicol}
+%%%===================Qrcode==============================%%%
+\usepackage{tikz}
+\usepackage{qrcode}				%Qrcode
+\def\maQR#1#2{
+	\tikz\path
+	node[above,draw=black,line width=2pt,rounded corners=1mm]{\qrcode[height=1in]{#2}}
+	node[below,rounded corners=1mm]{\href{#2}{#1}}
+	;
+}
+%%%===========================================================%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[shortlabels]{enumitem}
+\setenumerate{itemsep=1pt,topsep=1pt}
+\setlist[enumerate,1]{itemsep=0pt,topsep=0pt,label=\protect\circled{\arabic*}}
+\setlist[enumerate,2]{itemsep=0pt,topsep=0pt,label=\protect\circledqd{\small\alph*},wide=0.5cm,
+leftmargin=0.5cm}
+\setlist[enumerate,3]{itemsep=0pt,topsep=0pt,label=\protect\circledh{\small\roman*},wide=1cm,leftmargin=1cm}
+\setlist[itemize,1]{itemsep=0pt,topsep=0pt,label=\protect{\small\starletdot}}
+\setlist[itemize,2]{itemsep=0pt,topsep=0pt,label=\protect{\small\rhombusdot},wide=0.35cm,
+leftmargin=0.35cm}
+\setlist[itemize,3]{itemsep=0pt,topsep=0pt,label=\protect{\small\faAngellist},wide=0.5cm,leftmargin=.5cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+%\renewcommand\sectionmark[1]{%
+%	\markright{Bài \thesection.\ #1}}
+%\renewcommand{\chaptermark}[1]{\markboth{Chuyên đề \thechapter.\ #1}{}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx}
+\usepackage[labelsep=period]{caption}
+\usepackage{subcaption}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\vt[1]{\overrightarrow{#1}}
+\newcommand\sm[1]{{\displaystyle\sum\limits_{i=1}^{#1}}}
+\newcommand\sk[1]{{\displaystyle\sum_{i=0}^{#1}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Theorem
+\usepackage{pgf,tikz,pgfplots}
+\usetikzlibrary{arrows}
+\usetikzlibrary[patterns]
+\usetikzlibrary{shapes.geometric}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Điều chỉnh chữ trong tiêu đề
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\renewcommand{\thepart}{\Roman{part}.}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thesection}{{\usefont{T5}{uag}{db}{sc}VẤN ĐỀ \arabic{section}.}}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}.}
+\renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.} \renewcommand{\theequation}{\arabic{chapter}.\arabic{section}.\arabic{equation}}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{section}.\arabic{figure}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[answerdelayed]{exercise}
+\renewcommand{\QuestionNB}{(\alph{Question})}
+\renewcommand{\AnswerHeader}{\vspace*{-16pt}}
+\setlength{\ExerciseSkipBefore}{0.1\baselineskip}
+\setlength{\ExerciseSkipAfter}{0pt}
+\setlength{\QuestionBefore}{1pt}
+\font\nsieu=vnr10 at 1pt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\R{\mathbb{R}}
+\def\N{\mathbb{N}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{wrapfig}
+\usepackage{yhmath}%\wideparen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{contour} %Lặp lại từ, dùng làm đậm small cap
+\usepackage{multido}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Môi trường liệt kê
+\usepackage{oplotsymbl} % Biểu tượng
+\usepackage{fontawesome} %Biểu tượng
+\newcommand\circled[1]{\tikz[baseline=(char.base)]{
+     \node[shape=circle,minimum size =15pt,
+     inner sep=1.25pt] (char) 
+            {\fontfamily{qhv}\bfseries\small\selectfont#1};}}
+\newcommand\circledqd[1]{\tikz[baseline=(char.base)]{\node[shape=circle,fill=cyan!10,draw,inner sep=1pt,
+outer sep=0pt,minimum size =15pt,font=\fontsize{12}{12}\selectfont] (char){#1};}}
+\newcommand\circledh[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,minimum size =15pt, 
+inner sep=1.25pt,font=\fontsize{12}{12}\selectfont] (char){#1};}}
+\newcommand\diamondnumh[1]{\tikz[baseline=(char.base)]
+	\node[draw,double,diamond, text width=9pt,align=center,inner sep=1pt,font=\fontsize{12}{12}\selectfont\bfseries] (char){#1};}
+\usetikzlibrary{intersections,shadings,calc,angles,quotes}
+\usepackage{tkz-euclide}
+\usepackage{tkz-tab}
+%\definecolor{xanhnhat}{RGB}{224,255,255}
+%%%%%%%%%%%%%%%================================%%%%%%%%%%%%%
+%%%Dóng khung
+\newcommand\khungct[1]
+{\noindent
+\begin{tikzpicture}%
+	\tikzstyle{khung} = [rectangle, inner sep=8pt,double]%
+	\node [khung] {%
+		$
+		\; #1.\;
+		$
+	};%
+	\end{tikzpicture}}
+\newcommand\khung[1]
+{\noindent\begin{tikzpicture}%
+	\tikzstyle{khung} = [rectangle, inner sep=6pt,thick]%
+	\node [khung]{%
+		$
+		\; #1\;
+		$
+	};%
+	\end{tikzpicture}}
+%%%%====================================================%%%%
+%%%===================Hệ hoặc, hệ và===================%%%
+\newcommand{\hoac}[1]{
+\left[\begin{aligned}#1\end{aligned}\right. }
+\newcommand{\heva}[1]{
+\left\{\begin{aligned}#1\end{aligned}\right.}
+\usepackage{longtable}
+%%%================Viết tắt lệnh=========================%%%%
+\usepackage{pgfornament}
