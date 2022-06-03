@@ -1,7 +1,7 @@
 \def\cao{1.7}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[CO]{%
+\fancyhead[CO]{%Header trang lẻ
 \begin{tikzpicture}[overlay, remember picture]%
 \begin{scope}
 	\clip (current page.north west)  rectangle ($(current page.north east)+(0,-1.5*\cao)$);
@@ -20,7 +20,7 @@
 \end{tikzpicture}
 } 
 
-\fancyhead[CE]{%
+\fancyhead[CE]{%Header trang chẵn
 \begin{tikzpicture}[overlay, remember picture]%
 \begin{scope}
 	\clip (current page.north west)  rectangle ($(current page.north east)+(0,-1.5*\cao)$);
@@ -41,7 +41,7 @@
 
 
 
-\fancyfoot[CO]{% 
+\fancyfoot[CO]{%Footer trang lẻ
     \begin{tikzpicture}[overlay, remember picture]%
     \clip (current page.south west) rectangle ($(current page.south east)+(0,1.5*\cao)$);  
     %Đường trên
@@ -54,7 +54,7 @@
 \end{tikzpicture}
 }
 
-\fancyfoot[CE]{% 
+\fancyfoot[CE]{%Footer trang chẵn
     \begin{tikzpicture}[overlay, remember picture]%
     \clip (current page.south west) rectangle ($(current page.south east)+(0,1.5*\cao)$);  
     %Đường kẻ trên

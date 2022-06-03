@@ -105,7 +105,8 @@
 \def\boxheadbt{\begin{tcolorbox}[enhanced,breakable,
 	before skip=2mm,after skip=9pt,
     left=1mm,right=1mm,top=2mm,bottom=1mm,
-	colback=gray!10,boxrule=0pt,
+%	colback=gray!10,
+	boxrule=0pt,
 	arc=3mm,rounded corners,
 	colbacklower=white, frame hidden]}
 \newcommand{\boxendbt}{\end{tcolorbox}}
@@ -224,119 +225,119 @@ linewidth=2pt,
 }
 {\end{dnBox}}
 
-%%%==============Moi truong dang====================%%%
-\definecolor{xanh}{HTML}{04AA6D}
-\definecolor{xanhdatroi}{HTML}{2196F3}
-\definecolor{cam}{HTML}{ff9800}
-\definecolor{do}{HTML}{f44336}
+%%%%==============Moi truong dang====================%%%
+%\definecolor{xanh}{HTML}{04AA6D}
+%\definecolor{xanhdatroi}{HTML}{2196F3}
+%\definecolor{cam}{HTML}{ff9800}
+%\definecolor{do}{HTML}{f44336}
+%
+%\newcounter{sodang}[section]
+%\makeatletter
+%\def\calcLength(#1,#2)#3{%
+%\pgfpointdiff{\pgfpointanchor{#1}{center}}%
+%             {\pgfpointanchor{#2}{center}}%
+%\pgf@xa=\pgf@x%
+%\pgf@ya=\pgf@y%
+%\FPeval\@temp@a{\pgfmath@tonumber{\pgf@xa}}%
+%\FPeval\@temp@b{\pgfmath@tonumber{\pgf@ya}}%
+%\FPeval\@temp@sum{(\@temp@a*\@temp@a+\@temp@b*\@temp@b)}%
+%\FProot{\FPMathLen}{\@temp@sum}{2}%
+%\FPround\FPMathLen\FPMathLen5\relax
+%\global\expandafter\edef\csname #3\endcsname{\FPMathLen}
+%}
+%\makeatother
+%
+%\newmdenv[skipabove=7pt,
+%skipbelow=7pt,
+%rightline=false,
+%leftline=true,
+%topline=false,
+%bottomline=false,
+%linecolor=xanhdatroi,
+%backgroundcolor=nennam,
+%innerleftmargin=5pt,
+%innerrightmargin=5pt,
+%innertopmargin=5pt,
+%leftmargin=0cm,
+%rightmargin=0cm,
+%linewidth=2pt,
+%]{dangBox}
+%
+%\newenvironment{dang}[1][]{\begin{dangBox}\refstepcounter{sodang}\setcounter{vd}{0}
+%\begin{tikzpicture}[remember picture,overlay]
+%\path (-6pt,7pt) node[fill=xanhdatroi,inner sep=6pt,text width=0.975\linewidth,anchor=north west] (AT)
+%	{{\bfseries\fontfamily{pag}\selectfont\color{white}Dạng~\arabic{section}.\thesodang. #1}};
+%\path (AT.north east) coordinate (A)
+%		(AT.south east) coordinate (B)
+%		($ (A)!0.5!(B) $) coordinate (C);
+%\calcLength(A,C){mylen}
+%\draw[xanhdatroi,ultra thick,fill=white] ([xshift=0.5*\mylen]C) 
+%coordinate (TC) let  \p1 = ($ (C) - (A) $),  \n1 = {veclen(\x1,\y1)} 
+% in circle (1.25*\n1);
+% \path (TC) let  \p1 = ($ ([xshift=-12pt]C) - (A) $),  \n1 = {veclen(\x1,\y1)} 
+%  in  node{\includegraphics[width=\n1]{Khaibao/pencil}};
+%\end{tikzpicture}
+%
+%\par\bigskip\noindent
+%}
+%{\end{dangBox}}
 
-\newcounter{sodang}[section]
-\makeatletter
-\def\calcLength(#1,#2)#3{%
-\pgfpointdiff{\pgfpointanchor{#1}{center}}%
-             {\pgfpointanchor{#2}{center}}%
-\pgf@xa=\pgf@x%
-\pgf@ya=\pgf@y%
-\FPeval\@temp@a{\pgfmath@tonumber{\pgf@xa}}%
-\FPeval\@temp@b{\pgfmath@tonumber{\pgf@ya}}%
-\FPeval\@temp@sum{(\@temp@a*\@temp@a+\@temp@b*\@temp@b)}%
-\FProot{\FPMathLen}{\@temp@sum}{2}%
-\FPround\FPMathLen\FPMathLen5\relax
-\global\expandafter\edef\csname #3\endcsname{\FPMathLen}
-}
-\makeatother
+%%%================Moi truong phuong phap===================%%%
+%\newmdenv[skipabove=7pt,
+%skipbelow=7pt,
+%rightline=false,
+%leftline=true,
+%topline=false,
+%bottomline=false,
+%linecolor=cam,
+%backgroundcolor=nennam,
+%innerleftmargin=5pt,
+%innerrightmargin=5pt,
+%innertopmargin=5pt,
+%leftmargin=0cm,
+%rightmargin=0cm,
+%linewidth=2pt,
+%]{ppBox}
+%
+%\newenvironment{pp}[1][]{\begin{ppBox}
+%\begin{tikzpicture}[remember picture,overlay]
+%\path (-6pt,7pt) node[fill=cam,inner sep=6pt,text width=0.975\linewidth,anchor=north west] (AT)
+%	{{\bfseries\fontfamily{pag}\selectfont\color{white}Phương pháp #1}};
+%\path (AT.north east) coordinate (A)
+%		(AT.south east) coordinate (B)
+%		($ (A)!0.5!(B) $) coordinate (C);
+%\calcLength(A,C){mylen}
+%\draw[cam,ultra thick,fill=white] ([xshift=0.5*\mylen]C) 
+%coordinate (TC) let  \p1 = ($ (C) - (A) $),  \n1 = {veclen(\x1,\y1)} 
+% in circle (1.25*\n1);
+% \path (TC) let  \p1 = ($ ([xshift=-12pt]C) - (A) $),  \n1 = {veclen(\x1,\y1)} 
+%  in  node{\includegraphics[width=\n1]{Khaibao/Key}};
+%\end{tikzpicture}
+%
+%\par\bigskip\noindent
+%}
+%{\end{ppBox}}
 
-\newmdenv[skipabove=7pt,
-skipbelow=7pt,
-rightline=false,
-leftline=true,
-topline=false,
-bottomline=false,
-linecolor=xanhdatroi,
-backgroundcolor=nennam,
-innerleftmargin=5pt,
-innerrightmargin=5pt,
-innertopmargin=5pt,
-leftmargin=0cm,
-rightmargin=0cm,
-linewidth=2pt,
-]{dangBox}
+%%%================Moi truong phan tich===================%%%
+%\newenvironment{pt}
+%{\begin{TCBox}{\fontfamily{qag}
+%			\bfseries\selectfont Phân tích:\\ }}
+%	{\end{TCBox}}
 
-\newenvironment{dang}[1][]{\begin{dangBox}\refstepcounter{sodang}\setcounter{vd}{0}
-\begin{tikzpicture}[remember picture,overlay]
-\path (-6pt,7pt) node[fill=xanhdatroi,inner sep=6pt,text width=0.975\linewidth,anchor=north west] (AT)
-	{{\bfseries\fontfamily{pag}\selectfont\color{white}Dạng~\arabic{section}.\thesodang. #1}};
-\path (AT.north east) coordinate (A)
-		(AT.south east) coordinate (B)
-		($ (A)!0.5!(B) $) coordinate (C);
-\calcLength(A,C){mylen}
-\draw[xanhdatroi,ultra thick,fill=white] ([xshift=0.5*\mylen]C) 
-coordinate (TC) let  \p1 = ($ (C) - (A) $),  \n1 = {veclen(\x1,\y1)} 
- in circle (1.25*\n1);
- \path (TC) let  \p1 = ($ ([xshift=-12pt]C) - (A) $),  \n1 = {veclen(\x1,\y1)} 
-  in  node{\includegraphics[width=\n1]{Khaibao/pencil}};
-\end{tikzpicture}
-
-\par\bigskip\noindent
-}
-{\end{dangBox}}
-
-%%================Moi truong phuong phap===================%%%
-\newmdenv[skipabove=7pt,
-skipbelow=7pt,
-rightline=false,
-leftline=true,
-topline=false,
-bottomline=false,
-linecolor=cam,
-backgroundcolor=nennam,
-innerleftmargin=5pt,
-innerrightmargin=5pt,
-innertopmargin=5pt,
-leftmargin=0cm,
-rightmargin=0cm,
-linewidth=2pt,
-]{ppBox}
-
-\newenvironment{pp}[1][]{\begin{ppBox}
-\begin{tikzpicture}[remember picture,overlay]
-\path (-6pt,7pt) node[fill=cam,inner sep=6pt,text width=0.975\linewidth,anchor=north west] (AT)
-	{{\bfseries\fontfamily{pag}\selectfont\color{white}Phương pháp #1}};
-\path (AT.north east) coordinate (A)
-		(AT.south east) coordinate (B)
-		($ (A)!0.5!(B) $) coordinate (C);
-\calcLength(A,C){mylen}
-\draw[cam,ultra thick,fill=white] ([xshift=0.5*\mylen]C) 
-coordinate (TC) let  \p1 = ($ (C) - (A) $),  \n1 = {veclen(\x1,\y1)} 
- in circle (1.25*\n1);
- \path (TC) let  \p1 = ($ ([xshift=-12pt]C) - (A) $),  \n1 = {veclen(\x1,\y1)} 
-  in  node{\includegraphics[width=\n1]{Khaibao/Key}};
-\end{tikzpicture}
-
-\par\bigskip\noindent
-}
-{\end{ppBox}}
-
-%%================Moi truong phan tich===================%%%
-\newenvironment{pt}
-{\begin{TCBox}{\fontfamily{qag}
-			\bfseries\selectfont Phân tích:\\ }}
-	{\end{TCBox}}
-
-%%%=============Moi truong hq==================%%%
+%%%=============Moi truong hệ quả==================%%%
 \newcounter{sohq}[section]
 \newenvironment{hq}{\begin{cBox}\refstepcounter{sohq}
 {\fontfamily{qag}\selectfontHệ quả \arabic{chapter}.\arabic{section}.\thesohq}.\;
 }{\end{cBox}}
 
-%%%=============Moi truong bd==================%%%
+%%%=============Moi truong bổ đề==================%%%
 \newcounter{sobd}[section]
 \newenvironment{bd}{\begin{cBox}\refstepcounter{sobd}
 		{\fontfamily{qag}\selectfont Bổ đề 
 			\arabic{section}.\thesobd}.\;
 	}{\end{cBox}}
 
-%%%=============Moi truong tc==================%%%
+%%%=============Moi truong tính chất==================%%%
 \newmdenv[skipabove=5pt,
 skipbelow=5pt,
 rightline=false,
@@ -390,21 +391,21 @@ innerbottommargin=5pt
 {\begin{DLBox}{\fontfamily{qag}\refstepcounter{sodl}
 \bfseries\selectfont Định lý \arabic{section}.\thesodl.}}
 {\end{DLBox}}
-%%%=============Moi truong cy==================%%%
+%%%=============Moi truong chú ý==================%%%
 \newmdenv[skipabove=7pt,
 skipbelow=7pt,
 rightline=false,
 leftline=true,
 topline=false,
 bottomline=false,
-backgroundcolor=black!5!white,
+%backgroundcolor=black!5!white,
 innerleftmargin=5pt,
 innerrightmargin=5pt,
-innertopmargin=5pt,
+innertopmargin=0pt,
 leftmargin=0cm,
 rightmargin=0cm,
 linewidth=3pt,
-innerbottommargin=5pt
+innerbottommargin=0pt
 ]{NoteBox}
 
 \newenvironment{cy}
@@ -412,9 +413,9 @@ innerbottommargin=5pt
 \bfseries\selectfont Chú ý}. }
 {\end{NoteBox}}
 
-\newenvironment{note}
+\newenvironment{ly}
 {\begin{NoteBox}{\fontfamily{qag}\refstepcounter{sodl}
-\color{red}\bfseries\selectfont Chú ý}.}
+\bfseries\selectfont Lưu ý}.}
 {\end{NoteBox}}
 
 %%%======================Box cho tiểu mục lục=================
@@ -758,7 +759,7 @@ minimum size =13pt,font=\fontfamily{pag}\fontsize{10pt}{10pt}\bfseries\selectfon
 			\begin{center}
 			{\bfseries\selectfont Lời giải} 
 			\end{center}
-			\vspace*{-0.8\baselineskip}
+%			\vspace*{-0.8\baselineskip}
 			\begingroup
 			\noindent##1
 			\endgroup}
@@ -881,6 +882,71 @@ minimum size =13pt,font=\fontfamily{pag}\fontsize{10pt}{10pt}\bfseries\selectfon
 	},
 	#1}	
 %%%============Het dat noi dung cau hoi=============%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\dauloigiaitracnghiem}{Hướng dẫn:} %%%chi tiết hơn thì dùng lệnh ở dưới
+%%%\newcommand{\dauloigiaitracnghiem}{Hướng dẫn giải Câu \arabic{ex}.}
+%%%\hienthidapan
+%%%\luudapan
+%%%\dongke
+\newcommand{\dapso}[1]{
+	\luudapan %điều chỉnh in hay không in đáp án khi có đáp số
+	\renewcommand{\boxendbt}{\end{tcolorbox}
+	\phantom{a}\hfill
+	\begingroup
+	{\usefont{T5}{HLButlong}{m}{n}Đáp số:} #1
+	\endgroup
+}
+\renewcommand{\boxend}{\end{tcolorbox}
+\phantom{a}\hfill
+\begingroup
+{\usefont{T5}{HLButlong}{m}{n}Đáp số:} #1
+\endgroup
+}
+}
+
+
+%%%==========Môi trường chia cột================%%%
+\setlength\multicolsep{0pt}
+\newlist{listEXt}{enumerate}{2}
+\setlist[listEXt]{label=\protect\circled{\alph*},topsep=0pt,itemsep=0pt}
+\newenvironment{listEX}[1][2]
+{\begin{multicols}{#1}\begin{enumerate}[label=\protect\circled{\alph*}]}
+{\end{enumerate}\end{multicols}}
+%%%==========Hết môi trường chia cột================%%%
+
+\DeclareSymbolFont{AMSb}{U}{msb}{m}{n}
+\makeatletter
+\DeclareSymbolFontAlphabet{\math@bb}{AMSb}
+\AtBeginDocument{\protected\def\mathbb{\math@bb}} 
+\g@addto@macro\normalsize{
+\setlength{\abovedisplayskip}{4pt}%
+\setlength{\belowdisplayskip}{2pt}%
+\setlength{\abovedisplayshortskip}{4pt}%
+\setlength{\belowdisplayshortskip}{1pt}%
+}
+\makeatother
+
+%=== KÍ HIỆU CUNG ===
+\usetikzlibrary{tikzmark}
+\newcommand{\arc}[1]{%
+\tikzmarknode{a}{#1}
+\begin{tikzpicture}[overlay,remember picture]
+\draw ([yshift=1pt]a.north west) to[bend left=20] ([yshift=1pt]a.north east);
+\end{tikzpicture}%
+}
+%=== KÍ HIỆU ĐỒNG DẠNG ===
+\renewcommand{\backsim}{\ 
+\mathord{\raisebox{0.035\baselineskip}
+{\rotatebox{90}{\fontfamily{qag}\selectfont S}}}\
+} 
+%=== KÍ HIỆU SONG SONG ===
+\usepackage{indentfirst}
+\DeclareSymbolFont{symbolsC}{U}{txsyc}{m}{n}
+\DeclareMathSymbol{\varparallel}{\mathrel}{symbolsC}{9}
+\renewcommand{\varparallel}{\mathbin{\! \raisebox{0.025\baselineskip}/ \mkern-2mu \raisebox{0.025\baselineskip}/ \!}}
+\renewcommand{\parallel}{\mathbin{\! \raisebox{0.025\baselineskip}/ \mkern-2mu \raisebox{0.025\baselineskip}/ \!}}
 
 
 %%%============Khai báo lệnh viết tắt TIKZ=============%%%

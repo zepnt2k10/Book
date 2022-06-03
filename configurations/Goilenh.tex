@@ -5,25 +5,24 @@
 \usepackage{comment}
 \usepackage{multirow}
 \usepackage{indentfirst}
-%\usepackage[paperwidth=16.2cm,paperheight=24.2cm,top=1.75cm,bottom=1.5cm,left=1.75cm,right=1.5cm, includefoot=false,includehead=false]{geometry}
 \usepackage[width=19.40cm, height=26.90cm, left=2.20cm, right=2.20cm, top=2.20cm, bottom=2.20cm]{geometry}
-\setlength{\parindent}{0.6cm}
-\setlength{\parskip}{5pt}
-\linespread{1.5}  % dãn dòng
+\setlength{\parindent}{0cm}% Thụt lề
+\setlength{\parskip}{2pt} % khoảng cách giữa 2 đoạn văn bản
+\linespread{1.2}  % dãn dòng
 \usepackage[svgnames,table]{xcolor}
 \usepackage[all]{xy}
 \usepackage{bbding}
 \usepackage{stmaryrd}
 \usepackage{multicol}
 %%%===================Qrcode==============================%%%
-\usepackage{tikz}
-\usepackage{qrcode}				%Qrcode
-\def\maQR#1#2{
-	\tikz\path
-	node[above,draw=black,line width=2pt,rounded corners=1mm]{\qrcode[height=1in]{#2}}
-	node[below,rounded corners=1mm]{\href{#2}{#1}}
-	;
-}
+%\usepackage{tikz}
+%\usepackage{qrcode}				%Qrcode
+%\def\maQR#1#2{
+%	\tikz\path
+%	node[above,draw=black,line width=2pt,rounded corners=1mm]{\qrcode[height=1in]{#2}}
+%	node[below,rounded corners=1mm]{\href{#2}{#1}}
+%	;
+%}
 %%%===========================================================%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[shortlabels]{enumitem}
@@ -65,6 +64,7 @@ leftmargin=0.35cm}
 \renewcommand{\thepart}{\Roman{part}.}
 \renewcommand{\thechapter}{\arabic{chapter}}
 \renewcommand{\thesection}{{\usefont{T5}{uag}{db}{sc}VẤN ĐỀ \arabic{section}.}}
+%\renewcommand{\chaptermark}[1]{\markboth{\itshape Chuyên đề\ \arabic{chapter}.\,\ #1}{}}
 \renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}.}
 \renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.} \renewcommand{\theequation}{\arabic{chapter}.\arabic{section}.\arabic{equation}}
 \renewcommand{\thefigure}{\arabic{chapter}.\arabic{section}.\arabic{figure}}
