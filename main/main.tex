@@ -1,19 +1,44 @@
 \documentclass[12pt,a4paper,twoside,openany]{book}
 \usepackage{mathptmx}
+\usepackage{float}
 \usepackage[utf8]{vietnam}
+\usepackage{tabularx,booktabs}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
 \def\tieudeduoi{Nắm chắc kiến thức và kĩ năng toán 6}
-\input{../configurations/Goilenh.tex}
-\input{../configurations/Tieude.tex}
-%%Các môi trường hiển thị
-%%%=========môi trường bài tập, ví dụ, định nghĩa, chú ý,...=========%%%
 \def\tabex{20pt}%Thụt đầu dòng của trắc nghiệm tính bằng pt
 \def\tieudeboxvd{Câu} %tiêu đề trong nhãn của ô
-\input{../configurations/MoiTruong}
+\input{../configurations/Goilenh.tex}
+\input{../configurations/Tieude.tex}
+\input{../configurations/MoiTruong.tex}
+\input{../configurations/Mucluc.tex}
+%%Các môi trường hiển thị
+%%%=========môi trường bài tập, ví dụ, định nghĩa, chú ý,...=========%%%
+
+
 %\input{../configurations/MoiTruongThem.tex}
 %\input{../configurations/MoiTruongThemT9.tex}
 %%%=======Thay đổi chương, mục lục=======%%%
-\input{../configurations/Mucluc.tex}
 
+
+\usepackage{answers}
+\Newassociation{loigiaimau}{Answer}{loigiaichung}
+%\usepackage{MnSymbol}
+\newtheorem{baitap}{Bài tập}[chapter]
+
+\Newassociation{loigiaichuong1}{Answer}{loigiaichung}
+\Newassociation{loigiaichuong2}{Answer}{loigiaichung}
+\Newassociation{loigiaichuong3}{Answer}{loigiaichung}
+\Newassociation{loigiaichuong4}{Answer}{loigiaichung}
+\Newassociation{loigiaichuong5}{Answer}{loigiaichung}
+\Newassociation{loigiaichuong6}{Answer}{loigiaichung}
+\Newassociation{loigiaichuong7}{Answer}{loigiaichung}
+\Newassociation{loigiaichuong8}{Answer}{loigiaichung}
+\Newassociation{loigiaichuong9}{Answer}{loigiaichung}
+\Newassociation{loigiaichuong10}{Answer}{loigiaichung}
+\Newassociation{loigiaichuong11}{Answer}{loigiaichung}
+\Newassociation{loigiaichuong12}{Answer}{loigiaichung}
+
+\renewcommand{\Answerlabel}[1]{\textbf{Bài tập \thechapter.#1.}}
 \begin{document}
 
 %\setcounter{tocdepth}{1}
@@ -21,10 +46,12 @@
 %%\input{0.Ki_hieu_viet_tat}
 %%\input{0.Loi_noi_dau}
 %%%-----------------------Bắt đầu nội dung-----------------------%%%
-\indapanbaitap
+%\indapanbaitap
 \indapanvd
 %%=== CHUYÊN ĐỀ 1
 \input{../contents/Vande1}
+\subsection{GIẢI BÀI TẬP TỰ LUYỆN}
+\input{loigiaichuong1}
 \end{document}
 
 

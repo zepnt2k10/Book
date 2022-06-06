@@ -6,70 +6,70 @@
 \newcounter{sochuong} %điếm số chương
 \setcounter{sochuong}{0}
 
-\patchcmd{\tableofcontents}{\contentsname}{\sffamily\contentsname}{}{}
-%%%=========================part================%%%
-\makeatletter
+%\patchcmd{\tableofcontents}{\contentsname}{\sffamily\contentsname}{}{}
+%%%%=========================part================%%%
+%\makeatletter
+%
+%\newif\ifnotstarredversion
+%
+%
+%\renewcommand*\l@part[2]{%
+%    \ifnum \c@tocdepth >-2\relax
+%    \addpenalty{-\@highpenalty}%
+%    \addvspace{10pt \@plus\p@}%
+%    \setlength\@tempdima{3em}%
+%    \begingroup
+%   \hypersetup{linkcolor=violet}
+%   \tikz[remember picture, overlay]{
+%	\draw[thick] (1,-7pt) coordinate (A) arc (270:90:14pt)
+%	--++(0.935*\linewidth,0) coordinate (B) arc (90:-90:14pt)--cycle;%
+%	\path (A)--(B) node[midway]
+%	{\bfseries\fontfamily{pag}\selectfont {\scshape Phần} #1 - Trang #2};
+%	}
+%    \par\smallskip
+%	\penalty\@highpenalty
+%	\setcounter{chapter}{0}
+%    \endgroup
+%    \fi
+%}
 
-\newif\ifnotstarredversion
-
-
-\renewcommand*\l@part[2]{%
-    \ifnum \c@tocdepth >-2\relax
-    \addpenalty{-\@highpenalty}%
-    \addvspace{10pt \@plus\p@}%
-    \setlength\@tempdima{3em}%
-    \begingroup
-   \hypersetup{linkcolor=violet}
-   \tikz[remember picture, overlay]{
-	\draw[thick] (1,-7pt) coordinate (A) arc (270:90:14pt)
-	--++(0.935*\linewidth,0) coordinate (B) arc (90:-90:14pt)--cycle;%
-	\path (A)--(B) node[midway]
-	{\bfseries\fontfamily{pag}\selectfont {\scshape Phần} #1 - Trang #2};
-	}
-    \par\smallskip
-	\penalty\@highpenalty
-	\setcounter{chapter}{0}
-    \endgroup
-    \fi
-}
-
-\def\@part[#1]#2{%
-  \thispagestyle{fancy}
-  \setcounter{chapter}{0}
-  \startcontents[chapters]
-  \refstepcounter{part}
-  \addcontentsline{toc}{part}{\Roman{part}. #1}%
-  \markboth{Phần \Roman{part}. #1}{Phần \Roman{part}. #1}%
-  {\interlinepenalty \@M
-    \begin{center}
-    \begin{tikzpicture}[remember picture]
-   		\path (0,0)  to [ornament=88] +(0.55\textwidth,0);
-%		\path[blue] (-0.5,0) node[anchor=north west] {\pgfornament[width=1cm]{41}}
-%		+(0.525\textwidth,0) node[anchor=north west] {\pgfornament[width=1cm,symmetry=v]{41}};
-   		\path (0,-1) node[anchor=north west] (A){
-   		\begin{minipage}{0.55\linewidth}
-   		\begin{center}
-%   		   			{\Huge\sffamily\bfseries Phần \Roman{part}.  \\[12pt]
-%   		   		        \MakeUppercase{#2}}
-				\textpdfrender{
-					TextRenderingMode=FillStroke,
-					LineWidth=0.4pt,
-					FillColor=violet,
-				}{\Huge\sffamily\bfseries Phần \Roman{part}}\\[15pt]
-			    \textpdfrender{
-			    					TextRenderingMode=FillStroke,
-			    					LineWidth=0.4pt,
-			    					FillColor=violet,
-			    				}{\Huge\fontfamily{qag}\selectfont\bfseries \MakeUppercase{#2}}
-   		\end{center}
-   		\end{minipage}
-   		};
-   		\path ([yshift=-1cm]A.south west)  to [ornament=88] +(0.55\textwidth,0);
-    \end{tikzpicture}
-    \end{center}
-      }%
-      \@endpart
-    }
+%\def\@part[#1]#2{%
+%  \thispagestyle{fancy}
+%  \setcounter{chapter}{0}
+%  \startcontents[chapters]
+%  \refstepcounter{part}
+%  \addcontentsline{toc}{part}{\Roman{part}. #1}%
+%  \markboth{Phần \Roman{part}. #1}{Phần \Roman{part}. #1}%
+%  {\interlinepenalty \@M
+%    \begin{center}
+%    \begin{tikzpicture}[remember picture]
+%   		\path (0,0)  to [ornament=88] +(0.55\textwidth,0);
+%%		\path[blue] (-0.5,0) node[anchor=north west] {\pgfornament[width=1cm]{41}}
+%%		+(0.525\textwidth,0) node[anchor=north west] {\pgfornament[width=1cm,symmetry=v]{41}};
+%   		\path (0,-1) node[anchor=north west] (A){
+%   		\begin{minipage}{0.55\linewidth}
+%   		\begin{center}
+%%   		   			{\Huge\sffamily\bfseries Phần \Roman{part}.  \\[12pt]
+%%   		   		        \MakeUppercase{#2}}
+%				\textpdfrender{
+%					TextRenderingMode=FillStroke,
+%					LineWidth=0.4pt,
+%					FillColor=violet,
+%				}{\Huge\sffamily\bfseries Phần \Roman{part}}\\[15pt]
+%			    \textpdfrender{
+%			    					TextRenderingMode=FillStroke,
+%			    					LineWidth=0.4pt,
+%			    					FillColor=violet,
+%			    				}{\Huge\fontfamily{qag}\selectfont\bfseries \MakeUppercase{#2}}
+%   		\end{center}
+%   		\end{minipage}
+%   		};
+%   		\path ([yshift=-1cm]A.south west)  to [ornament=88] +(0.55\textwidth,0);
+%    \end{tikzpicture}
+%    \end{center}
+%      }%
+%      \@endpart
+%    }
 
 \titlecontents{chapter}[0pc]
 {\addvspace{20pt}%
@@ -169,32 +169,34 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \titleformat{\section}
-{\normalfont\fontsize{12}{13}\bfseries\xdef\alist{}}
-{\fontfamily{qhv}\selectfont\thesection}{.15em}
-{\fontsize{12}{13}\fontfamily{qag}\selectfont
-	{#1}}
+{\centering\normalfont\fontsize{16}{18}\bfseries\xdef\alist{}}
+{\fontfamily{qag}\selectfont\thesection}{.5em}
+{\fontsize{15}{17}\fontfamily{qag}\selectfont\MakeUppercase{#1}}
 [\color{black}]
 %%---------------
 \titleformat{\subsection}
-{\normalfont\fontsize{10}{12}\bfseries\setcounter{vd}{0}}
-{\fontsize{10}{12}{\bfseries\fontfamily{pag}\selectfont
+{\normalfont\fontsize{14}{16}\bfseries\setcounter{vd}{0}}
+{\fontsize{14}{16}{\bfseries\fontfamily{pag}\selectfont
 \thesubsection}}{.5em}
-{\fontsize{10}{12}\fontfamily{pag}\bfseries\selectfont#1}
+{\fontsize{14}{16}\fontfamily{pag}\bfseries\selectfont#1}
 [\color{black}]
 %%-------------------
 \titleformat{\subsubsection}
-{\normalfont\fontsize{10}{12}\bfseries}
-{\fontsize{10}{12}\bfseries\thesubsubsection}{.5em}
-{\fontsize{10}{12}\selectfont#1}[]
+{\normalfont\fontsize{14}{16}\bfseries}
+{\fontsize{13}{15}\bfseries\thesubsubsection}{.5em}
+{\fontsize{13}{15}\selectfont#1}[]
+
 %\titlespacing{\chapter}
 %{0pc}{*0.5}{*6}[0pc]
 %\titlespacing*{command}{left}{before-sep}{after-sep}[right-sep]
 \titlespacing{\section}
-{0pc}{*1.0}{*0.3}[0pc]
+{0pc}{*0.5}{*0.5}[0pc]
 \titlespacing{\subsection}
-{0pc}{*0.5}{*0.2}[0pc]
+{0pc}{*0.3}{*0.3}[0pc]
 \titlespacing{\subsubsection}
-{0pc}{*0.5}{*0.2}[0pc]
+{0pc}{*0.2}{*0.2}[0pc]
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Lien ket, phải đặt sau cùng
 \usepackage[colorlinks=true,unicode]{hyperref}
@@ -209,22 +211,22 @@
 	bookmarksopen=true}
 	
 %%%=================In tiểu mục lục=================%%%
-\newcommand{\tieumucluc}{
-\noindent
-
-\par\noindent
-{\fontfamily{qag}\selectfont\bfseries\color{orange}Mục lục của Chủ đề \thechapter}
-\vspace*{-\parskip}
-\begin{center}
-\begin{minipage}{0.8\linewidth}
-\begin{bmBox}
-	\hypersetup{linkcolor=violet}
-	\printcontents[chapters]{u}{1}{\setcounter{tocdepth}{1}}
-\end{bmBox}
-\end{minipage}
-\end{center}
-\hypersetup{linkcolor=black}
-}
+%\newcommand{\tieumucluc}{
+%\noindent
+%
+%\par\noindent
+%{\fontfamily{qag}\selectfont\bfseries\color{orange}Mục lục của Chủ đề \thechapter}
+%\vspace*{-\parskip}
+%\begin{center}
+%\begin{minipage}{0.8\linewidth}
+%\begin{bmBox}
+%	\hypersetup{linkcolor=violet}
+%	\printcontents[chapters]{u}{1}{\setcounter{tocdepth}{1}}
+%\end{bmBox}
+%\end{minipage}
+%\end{center}
+%\hypersetup{linkcolor=black}
+%}
 
 %%%=================In tiểu mục lục hai=================%%%
 %\newcommand{\tieumuclucH}{

@@ -5,7 +5,7 @@
 \usepackage{comment}
 \usepackage{multirow}
 \usepackage{indentfirst}
-\usepackage[width=19.40cm, height=26.90cm, left=2.20cm, right=2.20cm, top=2.20cm, bottom=2.20cm]{geometry}
+\usepackage[width=19.20cm, height=26.90cm, left=2.20cm, right=2.20cm, top=2.20cm, bottom=2.20cm]{geometry}
 \setlength{\parindent}{0cm}% Thụt lề
 \setlength{\parskip}{2pt} % khoảng cách giữa 2 đoạn văn bản
 \linespread{1.2}  % dãn dòng
@@ -59,24 +59,24 @@ leftmargin=0.35cm}
 \usetikzlibrary{shapes.geometric}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%  Điều chỉnh chữ trong tiêu đề
+\setcounter{secnumdepth}{5}
 \numberwithin{equation}{section}
 \numberwithin{figure}{section}
 \renewcommand{\thepart}{\Roman{part}.}
 \renewcommand{\thechapter}{\arabic{chapter}}
-\renewcommand{\thesection}{{\usefont{T5}{uag}{db}{sc}VẤN ĐỀ \arabic{section}.}}
-%\renewcommand{\chaptermark}[1]{\markboth{\itshape Chuyên đề\ \arabic{chapter}.\,\ #1}{}}
-\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}.}
-\renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.} \renewcommand{\theequation}{\arabic{chapter}.\arabic{section}.\arabic{equation}}
+\renewcommand{\thesection}{{\usefont{T5}{uag}{db}{sc}vấn đề \arabic{section}.}}
+\renewcommand{\thesubsection}{\Alph{subsection}.}
+\renewcommand{\thesubsubsection}{\arabic{subsubsection}.} \renewcommand{\theequation}{\arabic{chapter}.\arabic{section}.\arabic{equation}}
 \renewcommand{\thefigure}{\arabic{chapter}.\arabic{section}.\arabic{figure}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[answerdelayed]{exercise}
-\renewcommand{\QuestionNB}{(\alph{Question})}
-\renewcommand{\AnswerHeader}{\vspace*{-16pt}}
-\setlength{\ExerciseSkipBefore}{0.1\baselineskip}
-\setlength{\ExerciseSkipAfter}{0pt}
-\setlength{\QuestionBefore}{1pt}
-\font\nsieu=vnr10 at 1pt
+%\usepackage[answerdelayed]{exercise}
+%\renewcommand{\QuestionNB}{(\alph{Question})}
+%\renewcommand{\AnswerHeader}{\vspace*{-16pt}}
+%\setlength{\ExerciseSkipBefore}{0.1\baselineskip}
+%\setlength{\ExerciseSkipAfter}{0pt}
+%\setlength{\QuestionBefore}{1pt}
+%\font\nsieu=vnr10 at 1pt
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def\R{\mathbb{R}}
 \def\N{\mathbb{N}}
