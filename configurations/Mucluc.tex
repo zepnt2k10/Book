@@ -76,7 +76,7 @@
 \begin{tikzpicture}[remember picture, overlay]%
 \draw[thick](-4,-7pt) -- (2.5,-7pt) arc (-90:90:13pt)--++(-6,0)--cycle;%
 \node[anchor=east,align=right] at (2.75,5pt){{\fontfamily{pag}\bfseries\selectfont
- Chủ đề} {\large\fontfamily{phv}\selectfont\bfseries
+ Chương} {\large\fontfamily{phv}\selectfont\bfseries
  \thecontentslabel}};%
 \end{tikzpicture}
 \large\scshape\bfseries
@@ -160,7 +160,7 @@
 		  			 			 -- ([turn]55:0.11*\textwidth) --+(0.75*\textwidth,0) ;
 		  %Node chữ chương
 		  \node[anchor=south,inner sep=7pt] at   ([yshift=1pt]$0.5*(A)+0.5*(B)$) {
-		   {\Large \it {\bfseries Chủ đề\ \thechapter}}};%\chaptertitlename
+		   {\Large \it {\bfseries Chương\ \thechapter}}};%\chaptertitlename
 		 %Tên chương
 	   	 \node[anchor=north,inner sep=3pt,text width=0.75*\textwidth,align=center] at ([yshift=-3pt]$0.5*(C)+0.5*(D)$) 
 	   	 	{\fontfamily{qag}\LARGE\selectfont\bfseries\MakeUppercase{#1}};
@@ -246,7 +246,7 @@
 {\markright{\itshape\selectfont
 		Vấn đề \arabic{section}.\ #1}}
 \renewcommand{\chaptermark}[1]
-{\markboth{Chủ đề \arabic{chapter}.\ #1}{}}
+{\markboth{Chương \arabic{chapter}.\ #1}{}}
 
 
 

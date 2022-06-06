@@ -7,7 +7,7 @@
 \immini{\textit{Khái niệm tập hợp:} Một \textbf{tập hợp} (gọi tắt là tập) bao gồm những đối tượng nhất định. Các đối tượng đó được gọi là \textbf{phần tử} của tập hợp. 
 
 Hình vẽ bên: $A$ là tên tập hợp, $x$ là một phần tử của tập $A$ (ta còn nói $x$ nằm trong $A$ hoặc $A$ chứa $x$), kí hiệu $x\in A$; $y$ không thuộc tập $A$, kí hiệu $y\notin A$.}{
-	\begin{tikzpicture}[scale=1.15]
+	\begin{tikzpicture}[scale=1.1]
 		\draw[fill=gray!40]
 		(0:0) ellipse ({2.5} and {1.2})
 		;
@@ -21,11 +21,13 @@ Hình vẽ bên: $A$ là tên tập hợp, $x$ là một phần tử của tập
 		\foreach \i/\g in {x/0,y/0}\fill[black] (\i) circle (2pt) +(\g:.4) node{$\i$};
 	\end{tikzpicture}}
 
-Có hai cách mô tả tập hợp
-
-\textit{Cách 1: Liệt kê tất cả các phần tử của tập hợp.} Ví dụ $P= \{0;2;4;6;8\}$
-
-\textit{Cách 2: Nêu dấu hiệu đặc trưng của các phần tử trong tập hợp đó.} Ví dụ $P= \{ n \mid n$ là số tự nhiên chẵn nhỏ hơn 10$\}$
+\begin{mku}
+	Có hai cách mô tả tập hợp
+	\begin{itemize}
+		\item\textit{Cách 1: Liệt kê tất cả các phần tử của tập hợp.} Ví dụ $P= \{0;2;4;6;8\}$
+		\item\textit{Cách 2: Nêu dấu hiệu đặc trưng của các phần tử trong tập hợp đó.} Ví dụ $P= \{ n \mid n$ là số tự nhiên chẵn nhỏ hơn 10$\}$
+	\end{itemize}
+\end{mku}
 
 \subsubsection{Tập hợp số tự nhiên}
 -- Tập hợp số tự nhiên kí hiệu là $\N$, tập hợp số tự nhiên lớn hơn $0$ kí hiệu là $\mathbb{N^*}$
@@ -82,7 +84,7 @@ Có hai cách mô tả tập hợp
 	
 	$d)$ Cách $1$: $M=\{ 5;7;9;11\}$.
 	
-	Cách $2$: $M=\left\{x \mid x \text{ là số tự nhiên lẻ và } 5\le x\le 11 \right\}$.
+	Cách $2$: $M=\left\{x \mid x \text{  là số tự nhiên lẻ và } 5\le x\le 11 \right\}$.
 	}
 \end{vd}
 
@@ -132,7 +134,7 @@ Có hai cách mô tả tập hợp
 	Từ trang 100 đến trang 200 có: $\left( 200-100 \right)+1=101$ (trang). Số chữ số cần dùng là $101\times 3=303$ (chữ số).
 	
 	Vậy để đánh số trang cho cuốn sách trên cần:
-	\[7+180+303=490 \text{ (chữ số).}\]
+	\[7+180+303=490 \text{  (chữ số).}\]
 	Từ số tự nhiên $a$ đến số tự nhiên $b$ ($a<b$) có: $b-a+1$ số tự nhiên (tính cả $a$ và $b$).
 	}
 \end{vd}
@@ -199,11 +201,11 @@ Có hai cách mô tả tập hợp
 	$a)$ Tập hợp $T$ gồm các chữ cái trong từ SÁCH TOÁN 6.
 	
 	$b)$ Tập hợp $V$ gồm các tháng có 31 ngày trong một năm.
-	\loigiai{
-	$a)$	$T = \{S; A; C; H; T; O; N \}$.
-	
-	$b)$	$V =\{\text{tháng 1; tháng 3; tháng 5; tháng 7; tháng 8; tháng 10; tháng 12}\}$.
-	}
+	\begin{loigiaichuong1}
+		$a)$	$T = \{S; A; C; H; T; O; N \}$.
+		
+		$b)$	$V =\{\text{ tháng 1; tháng 3; tháng 5; tháng 7; tháng 8; tháng 10; tháng 12}\}$.
+	\end{loigiaichuong1}
 \end{bt}
 \begin{bt}
 	Gọi $M$ là tập hợp gồm các số tự nhiên $y$ sao cho $y+1<6$. Hãy viết tập hợp M bằng hai cách.
@@ -350,15 +352,15 @@ Có hai cách mô tả tập hợp
 	Để đánh số trang của một cuốn sách toán, người ta đã dùng hết 593 chữ số. Biết rằng cuốn sách đó được đánh số trang bắt đầu từ trang thứ 3. Hỏi cuốn sách đó có bao nhiêu trang?
 	\begin{loigiaichuong1}
 		Từ trang 3 đến trang 9 dùng hết:
-		\[(9 - 3) + 1 = 7 \text{(chữ số)}.\]
+		\[(9 - 3) + 1 = 7 \text{ (chữ số)}.\]
 		Từ 10 đến 99 có: $(99 - 10) + 1 = 90$ (số). Do đó, số chữ số cần dùng là:
-		\[90 \times 2 = 180 \text{(chữ số)}.\]
+		\[90 \times 2 = 180 \text{ (chữ số)}.\]
 		Khi đó còn lại: $592 - 7 - 180 = 405 < 900$ (chữ số). Do đó số trang của cuốn sách là một số có 3 chữ số.
 		
 		Số trang sách kể từ 100 trở đi của cuốn sách đó là:
-		\[405 : 3 = 135 \text{(trang)}.\]
+		\[405 : 3 = 135 \text{ (trang)}.\]
 		Khi đó, số trang của cuốn sách là
-		\[100 + 135 - 1 = 234 \text{(trang)}.\]
+		\[100 + 135 - 1 = 234 \text{ (trang)}.\]
 		Vậy cuốn sách đó có 234 trang.
 	\end{loigiaichuong1}
 \end{bt}
@@ -366,11 +368,11 @@ Có hai cách mô tả tập hợp
 	Đội tuyển đấu cờ của Trường THCS Đa Tốn có 24 em, trong đó có 15 em thi đấu cờ vua và 11 em thi đấu cờ tướng. Hỏi có bao nhiêu em trong đội tuyển thi đấu cả hai môn?
 	\begin{loigiaichuong1}
 		Vì có 15 em thi đấu cờ vua trong 24 em của đội tuyển đấu cờ nên số em chỉ thi đấu cờ tướng là:
-		\[24 - 15 = 9 \text{(em)}.\]
+		\[24 - 15 = 9 \text{ (em)}.\]
 		Vì có 11 em thi đấu cờ tướng trong 24 em của đội tuyển đấu cờ nên số em chỉ thi đấu cờ vua là:
-		\[24 - 11 = 13 \text{(em)}.\]
+		\[24 - 11 = 13 \text{ (em)}.\]s
 		Do đó, số em trong đội tuyển thi đấu cả hai môn là:
-		\[11 - 9 = 2 = 15 - 13 \text{(em)}.\]
+		\[11 - 9 = 2 = 15 - 13 \text{ (em)}.\]
 		Vậy có 2 em trong đội tuyển thi đấu cả hai môn.
 	\end{loigiaichuong1}
 \end{bt}
@@ -393,15 +395,15 @@ Có hai cách mô tả tập hợp
 				(2.5,1.5) node[right]{Đ}--(1.5,1)
 				(1.2,-3) node[right]{P}--(0,-2.5)
 				;
-				%	\foreach \i/\g in {a/0,b/0,1/0,2/60, c/-30}\fill[black] (\i) circle (2pt) +(\g:.4) node{$\i$};
+				\foreach \i/\g in {a/0,b/0,1/0,2/60, c/-30}\fill[black] (\i) circle (2pt) +(\g:.4) node{$\i$};
 			\end{tikzpicture}
 		\end{center}
 		Vì $39$ đại biểu nói được tiếng Pháp nên số đại biểu không nói được tiếng Pháp là
-		\[100 - 39 = 61 \text{(đại biểu)}.\]
+		\[100 - 39 = 61 \text{ (đại biểu)}.\]
 		Các đại biểu không nói được tiếng Pháp bao gồm: các đại biểu chỉ nói được tiếng Anh, các đại biểu chỉ nói được tiếng Đức, các đại biểu nói được cả hai tiếng Anh và Đức (không nói được tiếng Pháp).
 		
 		Vì 35 đại biểu chỉ nói được tiếng Anh và 8 đại biểu nói được cả hai tiếng Anh và Đức (không nói được tiếng Pháp) nên số đại biểu chỉ nói được tiếng Đức là:
-		\[61 - 35 - 8 = 18 \text{(đại biểu)}.\]
+		\[61 - 35 - 8 = 18 \text{ (đại biểu)}.\]
 		Vậy có 18 đại biểu chỉ nói được tiếng Đức.	 
 	\end{loigiaichuong1}
 \end{bt}

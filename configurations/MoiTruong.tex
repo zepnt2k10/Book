@@ -7,6 +7,9 @@
 \definecollection{btcol}
 \definecollection{vdcol}
 \definecollection{excol}
+
+%\def\tabex{20pt}%Thụt đầu dòng của trắc nghiệm tính bằng pt
+%\def\tieudeboxvd{Câu} %tiêu đề trong nhãn của ô
 %%%==========Lệnh lời giải==========%%%
 \newcommand{\loigiai}[1]{}
 %%%==========Môi trường chèn hình==========%%%
@@ -375,6 +378,8 @@ innerbottommargin=0pt
 %			\refstepcounter{sodl}
 \bfseries\selectfont Lưu ý}.}
 {\end{NoteBox}}
+
+\newenvironment{mku}{\begin{NoteBox}}{\end{NoteBox}}
 
 %%%======================Box cho tiểu mục lục=================
 %\newmdenv[skipabove=7pt,
