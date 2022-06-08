@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.2)  6 JUN 2022 16:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.2)  8 JUN 2022 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2074,7 +2074,7 @@ WARNING: environment Answer already in use
 WARNING: environment Answer already in use
 WARNING: environment Answer already in use
 WARNING: environment Answer already in use
-LaTeX Font Info:    Trying to load font information for T5+ptm on input line 32
+LaTeX Font Info:    Trying to load font information for T5+ptm on input line 34
 .
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5ptm.fd
 File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
@@ -2082,26 +2082,26 @@ File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2164,70 +2164,70 @@ g
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 32.
+ 34.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 32.
+ 34.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 32.
+ 34.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 32.
+ 34.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
 
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 3
-2.
+4.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-2.
+4.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
 LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 
-32.
+34.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/yhmath\omxyhex.fd
 File: OMXyhex.fd 
 File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 32
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 34
 .
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Package xypdf Info: Line width: 0.47987pt on input line 32.
+Package xypdf Info: Line width: 0.47987pt on input line 34.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -2243,10 +2243,10 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 32.
+ on input line 34.
 
 \c@lstlisting=\count447
-Package hyperref Info: Link coloring ON on input line 32.
+Package hyperref Info: Link coloring ON on input line 34.
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -2259,38 +2259,36 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count448
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
  (main.out) (main.out)
 \@outlinefile=\write10
 \openout10 = `main.out'.
 
  (../contents/Vande28.tex
-Ch\uhorn \ohorn ng 1.
+Ch\uhorn \ohorn ng 5.
 \c@ttl@toc@chapters=\count449
-LaTeX Font Info:    Trying to load font information for T5+qag on input line 2.
+LaTeX Font Info:    Trying to load font information for T5+qag on input line 3.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t5qag.fd
 File: t5qag.fd 2009/09/25 v1.2 font definition file for T5/qag
 )
-LaTeX Font Info:    Trying to load font information for T5+uag on input line 3.
+LaTeX Font Info:    Trying to load font information for T5+uag on input line 4.
 
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5uag.fd
 File: t5uag.fd 2005/08/24 Fontinst v1.929 font definitions for T5/uag.
 )
-LaTeX Font Info:    Trying to load font information for T5+pag on input line 4.
+LaTeX Font Info:    Trying to load font information for T5+pag on input line 5.
 
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5pag.fd
 File: t5uag.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pag.
 )
 LaTeX Font Info:    Font shape `T5/pag/b/n' in size <14> not available
-(Font)              Font shape `T5/pag/db/n' tried instead on input line 4.
-LaTeX Font Info:    Font shape `T5/pag/b/n' in size <12> not available
-(Font)              Font shape `T5/pag/db/n' tried instead on input line 85.
-LaTeX Font Info:    Trying to load font information for T5+qhv on input line 96
+(Font)              Font shape `T5/pag/db/n' tried instead on input line 5.
+LaTeX Font Info:    Trying to load font information for T5+qhv on input line 83
 .
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t5qhv.fd
@@ -2308,8 +2306,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
+LaTeX Font Info:    Font shape `T5/pag/b/n' in size <12> not available
+(Font)              Font shape `T5/pag/db/n' tried instead on input line 117.
+
 Underfull \hbox (badness 10000) has occurred while \output is active
- [][]\T5/ptm/m/it/12 V§n ^^_· 2. Mð rëng ki¸n thùc
+ [][]\T5/ptm/m/it/12 V§n ^^_· 1. ^^^iºm. ^^^÷íng th¯ng. Tia. ^^^o¤n th¯ng.
  []
 
 
@@ -2320,9 +2321,343 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2])
-\tf@ptc=\write11
-\openout11 = `main.ptc'.
+[2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+Output from handle loigiaichung going to loigiaichuong.tex
+\loigiaichung@file=\write11
+\openout11 = `loigiaichuong.tex'.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.317 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 309 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.319 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.336 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 322 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.338 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][]\T5/ptm/m/it/12 V§n ^^_· 1. ^^^iºm. ^^^÷íng th¯ng. Tia. ^^^o¤n th¯ng.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.342 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 341 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.344 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.353 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 347 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.355 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.363 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (47.99997pt too wide) in paragraph at lines 360--364
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--364
+
+ []
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 358 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.365 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.372 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 368 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.374 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.378 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 377 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.380 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.387 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 383 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.389 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.393 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 392 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.395 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 398 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.402 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.406 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 405 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.408 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2333,37 +2668,241 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3] (main.aux)
+[5]
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.412 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 411 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.414 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.418 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 417 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.420 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.424 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 423 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.426 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.430 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 429 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.432 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment loigiaichuong undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.439 	\begin{loigiaichuong}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{tcb@savebox} on input line 435 ended by \end{loigiaichuon
+g}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.441 	\end{loigiaichuong}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package amsmath Error: \begin{align} allowed only in paragraph mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.449 $\begin{align}
+                    
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (74.22932pt too wide) in paragraph at lines 448--461
+[]\T5/ptm/m/n/12 B i 2. a) $$ b) Bë ba ^^_iºm th¯ng h ng: $\OML/ztmcm/m/it/12 M
+; A; B$\T5/ptm/m/n/12 . Bë ba ^^_iºm khæng th¯ng h ng: $\OML/ztmcm/m/it/12 M; A
+; C\OT1/ztmcm/m/n/12 ; \OML/ztmcm/m/it/12 M; A; N\OT1/ztmcm/m/n/12 ; \OML/ztmcm
+/m/it/12 A; B; N\OT1/ztmcm/m/n/12 ; \OML/ztmcm/m/it/12 A; B; C\OT1/ztmcm/m/n/12
+ ; \OML/ztmcm/m/it/12 C; B; N:$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][]\T5/ptm/m/it/12 V§n ^^_· 1. ^^^iºm. ^^^÷íng th¯ng. Tia. ^^^o¤n th¯ng.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.527 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.527 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+)
+\tf@ptc=\write12
+\openout12 = `main.ptc'.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FAAC93413FA74152C14C75E506CB4259;862.
+(rerunfilecheck)             Checksum: 75EE44F1E3D70DF52273BFFE130F8D48;1030.
  ) 
 Here is how much of TeX's memory you used:
- 53986 strings out of 478547
- 1217440 string characters out of 2842308
- 1731457 words of memory out of 3000000
- 71048 multiletter control sequences out of 15000+600000
- 536560 words of font info for 107 fonts, out of 8000000 for 9000
+ 54128 strings out of 478547
+ 1219608 string characters out of 2842308
+ 1738158 words of memory out of 3000000
+ 71148 multiletter control sequences out of 15000+600000
+ 541086 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,16n,99p,3274b,1400s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 89i,16n,99p,3274b,1401s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/
 Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc}{C:/Users
 /User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-t5.enc}<C:/Users
 /User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
 0.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/t
-ex-gyre/qagb.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/tex-gyre/qhvb.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vn
-tex/urwvn/uagd8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/v
-ntex/urwvn/utmb8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/
-vntex/urwvn/utmbi8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type
-1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1
-/vntex/urwvn/utmr8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type
-1/urw/times/utmri8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type
-1/vntex/urwvn/utmri8v.pfb>
-Output written on main.pdf (3 pages, 229431 bytes).
+cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/symbols/msam10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/tex-gyre/qagb.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/font
+s/type1/public/tex-gyre/qhvb.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/f
+onts/type1/vntex/urwvn/uagd8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/
+fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX
+/fonts/type1/vntex/urwvn/utmbi8v.pfb><C:/Users/User/AppData/Local/Programs/MiKT
+eX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTe
+X/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/User/AppData/Local/Programs/MiKT
+eX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/User/AppData/Local/Programs/MiKT
+eX/fonts/type1/vntex/urwvn/utmri8v.pfb>
+Output written on main.pdf (7 pages, 273694 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 252 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
