@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.2)  8 JUN 2022 16:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.2)  9 JUN 2022 10:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2331,63 +2331,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-Output from handle loigiaichung going to loigiaichuong.tex
+Output from handle loigiaichung going to loigiaichuong1.tex
 \loigiaichung@file=\write11
-\openout11 = `loigiaichuong.tex'.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.317 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 309 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.319 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.336 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 322 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.338 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+\openout11 = `loigiaichuong1.tex'.
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -2403,258 +2349,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.342 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 341 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.344 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.353 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 347 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.355 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.363 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (47.99997pt too wide) in paragraph at lines 360--364
-[][]
+Overfull \hbox (47.99997pt too wide) in paragraph at lines 437--476
+[][] 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 360--364
-
- []
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 358 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.365 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.372 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 368 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.374 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.378 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 377 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.380 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.387 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 383 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.389 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.393 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 392 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.395 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.400 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 398 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.402 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.406 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 405 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.408 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2669,163 +2366,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.412 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 411 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.414 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.418 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 417 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.420 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.424 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 423 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.426 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.430 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 429 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.432 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment loigiaichuong undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.439 	\begin{loigiaichuong}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{tcb@savebox} on input line 435 ended by \end{loigiaichuon
-g}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.441 	\end{loigiaichuong}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package amsmath Error: \begin{align} allowed only in paragraph mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.449 $\begin{align}
-                    
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (74.22932pt too wide) in paragraph at lines 448--461
-[]\T5/ptm/m/n/12 B i 2. a) $$ b) Bë ba ^^_iºm th¯ng h ng: $\OML/ztmcm/m/it/12 M
-; A; B$\T5/ptm/m/n/12 . Bë ba ^^_iºm khæng th¯ng h ng: $\OML/ztmcm/m/it/12 M; A
-; C\OT1/ztmcm/m/n/12 ; \OML/ztmcm/m/it/12 M; A; N\OT1/ztmcm/m/n/12 ; \OML/ztmcm
-/m/it/12 A; B; N\OT1/ztmcm/m/n/12 ; \OML/ztmcm/m/it/12 A; B; C\OT1/ztmcm/m/n/12
- ; \OML/ztmcm/m/it/12 C; B; N:$
- []
-
-
+<../pictures/vande28//image042.png, id=169, 1038.88126pt x 329.73187pt>
+File: ../pictures/vande28//image042.png Graphic file (type png)
+<use ../pictures/vande28//image042.png>
+Package pdftex.def Info: ../pictures/vande28//image042.png  used on input line 
+653.
+(pdftex.def)             Requested size: 322.65302pt x 102.407pt.
+) (loigiaichuong1.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2841,27 +2388,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.527 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+[6 <../pictures/vande28//image042.png>]
+<../pictures/vande28//image029.png, id=186, 510.8175pt x 80.154pt>
+File: ../pictures/vande28//image029.png Graphic file (type png)
+<use ../pictures/vande28//image029.png>
+Package pdftex.def Info: ../pictures/vande28//image029.png  used on input line 
+63.
+(pdftex.def)             Requested size: 345.33075pt x 54.18723pt.
+<../pictures/vande28//image030.png, id=188, 524.1984pt x 115.1502pt>
+File: ../pictures/vande28//image030.png Graphic file (type png)
+<use ../pictures/vande28//image030.png>
+Package pdftex.def Info: ../pictures/vande28//image030.png  used on input line 
+67.
+(pdftex.def)             Requested size: 345.33075pt x 75.8588pt.
 
-! Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.527 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-)
-\tf@ptc=\write12
-\openout12 = `main.ptc'.
-
+Overfull \hbox (87.13998pt too wide) in paragraph at lines 81--115
+[][] 
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2871,16 +2414,70 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7] (main.aux)
+[7 <../pictures/vande28//image029.png> <../pictures/vande28//image030.png>]
+Overfull \hbox (87.13998pt too wide) in paragraph at lines 118--161
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--176
+
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][]\T5/ptm/m/it/12 V§n ^^_· 1. ^^^iºm. ^^^÷íng th¯ng. Tia. ^^^o¤n th¯ng.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+Overfull \hbox (100.41942pt too wide) in paragraph at lines 268--315
+[][] 
+ []
+
+)
+\tf@ptc=\write12
+\openout12 = `main.ptc'.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][]\T5/ptm/m/it/12 V§n ^^_· 1. ^^^iºm. ^^^÷íng th¯ng. Tia. ^^^o¤n th¯ng.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 75EE44F1E3D70DF52273BFFE130F8D48;1030.
+(rerunfilecheck)             Checksum: F7161D5FC2E72598B513345A17E748A5;1222.
  ) 
 Here is how much of TeX's memory you used:
- 54128 strings out of 478547
- 1219608 string characters out of 2842308
- 1738158 words of memory out of 3000000
- 71148 multiletter control sequences out of 15000+600000
- 541086 words of font info for 109 fonts, out of 8000000 for 9000
+ 54283 strings out of 478547
+ 1222664 string characters out of 2842308
+ 1738504 words of memory out of 3000000
+ 71262 multiletter control sequences out of 15000+600000
+ 537257 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,16n,99p,3274b,1401s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/
@@ -2900,9 +2497,9 @@ eX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTe
 X/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/User/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/User/AppData/Local/Programs/MiKT
 eX/fonts/type1/vntex/urwvn/utmri8v.pfb>
-Output written on main.pdf (7 pages, 273694 bytes).
+Output written on main.pdf (10 pages, 1334874 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
