@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.2)  9 JUN 2022 10:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.2)  15 JUN 2022 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2266,7 +2266,7 @@ LaTeX Info: Redefining \nameref on input line 34.
 \@outlinefile=\write10
 \openout10 = `main.out'.
 
- (../contents/Vande28.tex
+ (../contents/Vande31.tex
 Ch\uhorn \ohorn ng 5.
 \c@ttl@toc@chapters=\count449
 LaTeX Font Info:    Trying to load font information for T5+qag on input line 3.
@@ -2288,7 +2288,50 @@ File: t5uag.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pag.
 )
 LaTeX Font Info:    Font shape `T5/pag/b/n' in size <14> not available
 (Font)              Font shape `T5/pag/db/n' tried instead on input line 5.
-LaTeX Font Info:    Trying to load font information for T5+qhv on input line 83
+
+Underfull \hbox (badness 2460) in paragraph at lines 23--24
+[]\T5/ptm/m/n/12 X¡c ^^_ành sè ^^_÷íng
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T5/ptm/m/n/12 Ba ^^_iºm
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 37--38
+[]\T5/ptm/m/n/12 Nhªn x²t ba ^^_iºm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+[]\T5/ptm/m/n/12 Nhªn bi¸t ^^_÷íng
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 56--57
+\T5/ptm/m/n/12 th¯ng Trung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\T5/ptm/m/n/12 ^^_iºm cõa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+[]\T5/ptm/m/n/12 Chùng minh trung
+ []
+
+
+Overfull \hbox (15.62492pt too wide) in paragraph at lines 6--90
+[][] 
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Trying to load font information for T5+qhv on input line 50
 .
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t5qhv.fd
@@ -2306,11 +2349,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
-LaTeX Font Info:    Font shape `T5/pag/b/n' in size <12> not available
-(Font)              Font shape `T5/pag/db/n' tried instead on input line 117.
+Overfull \vbox (293.05185pt too high) has occurred while \output is active []
+
 
 Underfull \hbox (badness 10000) has occurred while \output is active
- [][]\T5/ptm/m/it/12 V§n ^^_· 1. ^^^iºm. ^^^÷íng th¯ng. Tia. ^^^o¤n th¯ng.
+ [][]\T5/ptm/m/it/12 V§n ^^_· 1. Æn tªp ch÷ìng
  []
 
 
@@ -2322,39 +2365,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[3]
-Output from handle loigiaichung going to loigiaichuong1.tex
-\loigiaichung@file=\write11
-\openout11 = `loigiaichuong1.tex'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][]\T5/ptm/m/it/12 V§n ^^_· 1. ^^^iºm. ^^^÷íng th¯ng. Tia. ^^^o¤n th¯ng.
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[4]
-Overfull \hbox (47.99997pt too wide) in paragraph at lines 437--476
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+\tf@ptc=\write11
+\openout11 = `main.ptc'.
 
 
 
@@ -2365,141 +2377,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5]
-<../pictures/vande28//image042.png, id=169, 1038.88126pt x 329.73187pt>
-File: ../pictures/vande28//image042.png Graphic file (type png)
-<use ../pictures/vande28//image042.png>
-Package pdftex.def Info: ../pictures/vande28//image042.png  used on input line 
-653.
-(pdftex.def)             Requested size: 322.65302pt x 102.407pt.
-) (loigiaichuong1.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][]\T5/ptm/m/it/12 V§n ^^_· 1. ^^^iºm. ^^^÷íng th¯ng. Tia. ^^^o¤n th¯ng.
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[6 <../pictures/vande28//image042.png>]
-<../pictures/vande28//image029.png, id=186, 510.8175pt x 80.154pt>
-File: ../pictures/vande28//image029.png Graphic file (type png)
-<use ../pictures/vande28//image029.png>
-Package pdftex.def Info: ../pictures/vande28//image029.png  used on input line 
-63.
-(pdftex.def)             Requested size: 345.33075pt x 54.18723pt.
-<../pictures/vande28//image030.png, id=188, 524.1984pt x 115.1502pt>
-File: ../pictures/vande28//image030.png Graphic file (type png)
-<use ../pictures/vande28//image030.png>
-Package pdftex.def Info: ../pictures/vande28//image030.png  used on input line 
-67.
-(pdftex.def)             Requested size: 345.33075pt x 75.8588pt.
-
-Overfull \hbox (87.13998pt too wide) in paragraph at lines 81--115
-[][] 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7 <../pictures/vande28//image029.png> <../pictures/vande28//image030.png>]
-Overfull \hbox (87.13998pt too wide) in paragraph at lines 118--161
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--176
-
- []
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][]\T5/ptm/m/it/12 V§n ^^_· 1. ^^^iºm. ^^^÷íng th¯ng. Tia. ^^^o¤n th¯ng.
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[8]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[9]
-Overfull \hbox (100.41942pt too wide) in paragraph at lines 268--315
-[][] 
- []
-
-)
-\tf@ptc=\write12
-\openout12 = `main.ptc'.
-
-
-Underfull \hbox (badness 10000) has occurred while \output is active
- [][]\T5/ptm/m/it/12 V§n ^^_· 1. ^^^iºm. ^^^÷íng th¯ng. Tia. ^^^o¤n th¯ng.
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10] (main.aux)
+[3] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F7161D5FC2E72598B513345A17E748A5;1222.
+(rerunfilecheck)             Checksum: D0CE69DB7B49E19AD4499A5EA43AEBC3;585.
  ) 
 Here is how much of TeX's memory you used:
- 54283 strings out of 478547
- 1222664 string characters out of 2842308
- 1738504 words of memory out of 3000000
- 71262 multiletter control sequences out of 15000+600000
- 537257 words of font info for 102 fonts, out of 8000000 for 9000
+ 53902 strings out of 478547
+ 1215521 string characters out of 2842308
+ 1722597 words of memory out of 3000000
+ 70959 multiletter control sequences out of 15000+600000
+ 526758 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,16n,99p,3274b,1401s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 89i,17n,99p,3274b,945s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/
 Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc}{C:/Users
 /User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-t5.enc}<C:/Users
-/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/symbols/msam10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/tex-gyre/qagb.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/font
-s/type1/public/tex-gyre/qhvb.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/f
-onts/type1/vntex/urwvn/uagd8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/
-fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX
-/fonts/type1/vntex/urwvn/utmbi8v.pfb><C:/Users/User/AppData/Local/Programs/MiKT
-eX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTe
-X/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/User/AppData/Local/Programs/MiKT
-eX/fonts/type1/urw/times/utmri8a.pfb><C:/Users/User/AppData/Local/Programs/MiKT
-eX/fonts/type1/vntex/urwvn/utmri8v.pfb>
-Output written on main.pdf (10 pages, 1334874 bytes).
+/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/tex-gyre/qagb.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/tex-gyre/qhvb.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/
+type1/vntex/urwvn/uagd8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts
+/type1/vntex/urwvn/utmbi8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/font
+s/type1/vntex/urwvn/utmr8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/times/utmri8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fon
+ts/type1/vntex/urwvn/utmri8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/yhmath/yhcmex.pfb>
+Output written on main.pdf (3 pages, 213774 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 124 named destinations out of 1000 (max. 500000)
- 228 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
