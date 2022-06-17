@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.2)  15 JUN 2022 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.2)  17 JUN 2022 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2266,7 +2266,7 @@ LaTeX Info: Redefining \nameref on input line 34.
 \@outlinefile=\write10
 \openout10 = `main.out'.
 
- (../contents/Vande31.tex
+ (../contents/Vande32.tex
 Ch\uhorn \ohorn ng 5.
 \c@ttl@toc@chapters=\count449
 LaTeX Font Info:    Trying to load font information for T5+qag on input line 3.
@@ -2280,60 +2280,21 @@ LaTeX Font Info:    Trying to load font information for T5+uag on input line 4.
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5uag.fd
 File: t5uag.fd 2005/08/24 Fontinst v1.929 font definitions for T5/uag.
 )
-LaTeX Font Info:    Trying to load font information for T5+pag on input line 5.
-
+LaTeX Font Info:    Trying to load font information for T5+pag on input line 28
+.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5pag.fd
 File: t5uag.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pag.
 )
-LaTeX Font Info:    Font shape `T5/pag/b/n' in size <14> not available
-(Font)              Font shape `T5/pag/db/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `T5/pag/b/n' in size <12> not available
+(Font)              Font shape `T5/pag/db/n' tried instead on input line 28.
 
-Underfull \hbox (badness 2460) in paragraph at lines 23--24
-[]\T5/ptm/m/n/12 X°c ^^_‡nh sË ^^_˜Ìng
+Overfull \hbox (8.33884pt too wide) in paragraph at lines 11--56
+[][]     
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T5/ptm/m/n/12 Ba ^^_i∫m
- []
-
-
-Underfull \hbox (badness 6396) in paragraph at lines 37--38
-[]\T5/ptm/m/n/12 Nh™n x≤t ba ^^_i∫m
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-[]\T5/ptm/m/n/12 Nh™n bi∏t ^^_˜Ìng
- []
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 56--57
-\T5/ptm/m/n/12 thØng Trung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-\T5/ptm/m/n/12 ^^_i∫m cıa
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-[]\T5/ptm/m/n/12 Ch˘ng minh trung
- []
-
-
-Overfull \hbox (15.62492pt too wide) in paragraph at lines 6--90
-[][] 
- []
-
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Trying to load font information for T5+qhv on input line 50
+LaTeX Font Info:    Trying to load font information for T5+qhv on input line 56
 .
-
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t5qhv.fd
 File: t5qhv.fd 2009/09/25 v1.2 font definition file for T5/qhv
 )
@@ -2349,11 +2310,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
-Overfull \vbox (293.05185pt too high) has occurred while \output is active []
-
+Package mdframed Info: mdframed works in twoside mode on input line 56.
+Package mdframed Info: mdframed works in twoside mode on input line 88.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
- [][]\T5/ptm/m/it/12 Vßn ^^_∑ 1. ∆n t™p ch˜Ïng
+ [][]\T5/ptm/m/it/12 Vßn ^^_∑ 1. LÇI ^^^ÃN -- LÇI KíP
  []
 
 
@@ -2365,9 +2326,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-\tf@ptc=\write11
-\openout11 = `main.ptc'.
 
+LaTeX Warning: Command \h invalid in math mode on input line 119.
+
+
+LaTeX Warning: Command \dj invalid in math mode on input line 119.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 119.
+
+Missing character: There is no ø in font zptmcm7t!
+Missing character: There is no Á in font zptmcm7t!
+LaTeX Font Info:    Font shape `T5/pag/b/n' in size <14> not available
+(Font)              Font shape `T5/pag/db/n' tried instead on input line 120.
+Output from handle loigiaichung going to loigiaichuong32.tex
+\loigiaichung@file=\write11
+\openout11 = `loigiaichuong32.tex'.
+
+) (../contents/vande33.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+Ch\uhorn \ohorn ng 6.
+Package mdframed Info: mdframed works in twoside mode on input line 39.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][]
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2377,38 +2368,93 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3] (main.aux)
+[4
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+Package mdframed Info: mdframed works in twoside mode on input line 98.
+
+Output from handle loigiaichung going to loigiaichuong33.tex
+\openout11 = `loigiaichuong33.tex'.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][]\T5/ptm/m/it/12 Vßn ^^_∑ 1. DOANH THU -- CHI PHù -- L—I NHUäN
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]) (loigiaichuong32.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]) (loigiaichuong33.tex)
+\tf@ptc=\write12
+\openout12 = `main.ptc'.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][]\T5/ptm/m/it/12 Vßn ^^_∑ 2. ^^^Âc th∂m: CHI PHù CÃ HÀI
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D0CE69DB7B49E19AD4499A5EA43AEBC3;585.
+(rerunfilecheck)             Checksum: C874BD54B8A844EBBE6EBC6F9A93260C;1520.
  ) 
 Here is how much of TeX's memory you used:
- 53902 strings out of 478547
- 1215521 string characters out of 2842308
- 1722597 words of memory out of 3000000
- 70959 multiletter control sequences out of 15000+600000
- 526758 words of font info for 102 fonts, out of 8000000 for 9000
+ 54152 strings out of 478547
+ 1219782 string characters out of 2842308
+ 1727333 words of memory out of 3000000
+ 71146 multiletter control sequences out of 15000+600000
+ 540849 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,17n,99p,3274b,945s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 89i,17n,99p,3274b,1402s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/
 Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc}{C:/Users
 /User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-t5.enc}<C:/Users
-/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/tex-gyre/qagb.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/tex-gyre/qhvb.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/
-type1/vntex/urwvn/uagd8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts
-/type1/vntex/urwvn/utmbi8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fon
-ts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/font
-s/type1/vntex/urwvn/utmr8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fon
-ts/type1/urw/times/utmri8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fon
-ts/type1/vntex/urwvn/utmri8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/yhmath/yhcmex.pfb>
-Output written on main.pdf (3 pages, 213774 bytes).
+/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/t
+ex-gyre/qagb.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/tex-gyre/qhvb.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/vn
+tex/urwvn/uagd8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/v
+ntex/urwvn/utmb8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/
+vntex/urwvn/utmbi8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1
+/vntex/urwvn/utmr8v.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/times/utmri8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type
+1/vntex/urwvn/utmri8v.pfb>
+Output written on main.pdf (8 pages, 281360 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 280 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
