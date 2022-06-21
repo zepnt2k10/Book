@@ -1,0 +1,470 @@
+\def\i{\item}
+\graphicspath{{../pictures/c5/}}
+\chapter{MỘT SỐ YẾU TỐ THỐNG KÊ VÀ XÁC SUẤT}
+\section{THU THẬP, TỔ CHỨC, BIỂU DIỄN, PHÂN TÍCH VÀ XỬ LÍ DỮ LIỆU}
+\subsection{KIẾN THỨC CẦN NHỚ}
+\subsubsection{Dữ liệu và thu thập dữ liệu}
+\begin{enumerate}[--,leftmargin=*]
+	\i Những thông tin thu thập được như: số, chữ, hình ảnh, \ldots được gọi là \textbf{\textit{dữ liệu}}. \textbf{\textit{Dữ liệu}} dưới dạng số được gọi là \textbf{\textit{số liệu}}. Việc thu thập, phân loại, tổ chức và trình bày dữ liệu là những hoạt động \textbf{\textit{thống kê}}.
+	\i Có nhiều cách để \textbf{\textit{thu thập dữ liệu}} như quan sát, làm thí nghiệm, lập phiếu hỏi,\ldots hay thu thập từ những nguồn có sẵn như sách báo, trang web,\ldots
+\end{enumerate}
+\subsubsection{Tổ chức và phân loại dữ liệu}
+\begin{enumerate}[--,leftmargin=*]
+	\i Để đánh giá tính hợp lý của dữ liệu, ta cần đưa ra các \textbf{\textit{tiêu chí đánh giá}}, chẳng hạn như dữ liệu phải:
+	\begin{enumerate}[+,leftmargin=*]
+		\i Đúng định dạng.
+		\i Nằm trong phạm vi dự kiến.
+	\end{enumerate}
+	\i Dựa theo đối tượng và tiêu chí thống kê, ta có thể tổ chức và phân loại dữ liệu.
+	\i Thông tin rất đa dạng và phong phú. Việc sắp xếp thông tin theo những tiêu chí nhất định goi là \textbf{\textit{phân loại dữ liệu}}.
+\end{enumerate}
+\subsubsection{Biểu diễn, phân tích và xử lí dữ liệu}
+\begin{enumerate}[--,leftmargin=*]
+	\i Sau khi thu thập và tổ chức dữ liệu, ta cần biểu diễn dữ liệu đó ở dạng thích hợp. Nhờ việc biểu diễn dữ liệu, ta có thể phân tích và xử lí được các dữ liệu đó.
+	\i Khi điều tra về một vấn đề nào đó, người ta thường thu thập dữ liệu và ghi lại trong bảng dữ liệu ban đầu.\\
+	\textit{Chú ý}: Để thu thập dữ liệu được nhanh chóng, trong bảng dữ liệu ban đầu ta thường viết tắt các giá trị, nhưng để tránh sai sót, các giá trị khác nhau phải được viết tắt khác nhau.
+	\i Bảng thống kê là một cách trình bày dữ liệu chi tiết hơn bảng dữ liệu ban đầu, bao gồm các hàng và các cột, thể hiện danh sách các đối tượng thống kê cùng với các dữ liệu thống kê đối tượng đó.
+\end{enumerate}
+\subsection{THỰC HÀNH GIẢI TOÁN}
+\begin{vd}
+	Nhà bạn An mở tiệm trà sữa, bạn ấy muốn tìm hiểu về các loại trà sữa yêu thích của 30 khách hàng trong tối thứ bảy và thu được kết quả như sau:
+	\begin{center}
+		\begin{tabular}{|l| c|}
+			\hline
+			Vị trà sữa&	Kiểm đếm\\ 
+			\hline
+			Dâu	 & $\not\parallel\parallel$ $\parallel\parallel$\\
+			\hline
+			Khoai môn &	 $\parallel\parallel$\\
+			\hline
+			Sầu riêng	& $\parallel\parallel$$\parallel\parallel$\\
+			\hline
+			Sô cô la	 & $\parallel\parallel$$\parallel\parallel$\\
+			\hline
+			Vani 	& $\parallel\parallel$$\parallel\parallel$\\
+			\hline
+		\end{tabular}
+	\end{center} 
+	Từ bảng kiểm đếm của bạn An, em hãy cho biết: 
+	\begin{enumerate}[a),leftmargin=*]
+		\i An đang điều tra về vấn đề gì?
+		\i Hãy chỉ ra các dữ liệu mà bạn ấy thu thập được trong bảng.
+		\i Loại trà sữa nào được mọi người yêu thích nhất?
+	\end{enumerate}
+	\loigiai{
+		\textbf{Tìm cách giải:}
+		\begin{enumerate}[a),leftmargin=*]
+			\i Vấn đề An muốn tìm hiểu chính là vấn đề An đang điều tra.
+			\i Dựa theo kí hiệu trên bảng dữ liệu ban đầu để đưa về số liệu cụ thể, từ đó lập ra bảng thống kê.
+			\i Loại trà sữa được mọi người yêu thích nhất là loại có số khách hàng thích nhiều nhất.
+		\end{enumerate}
+		\textbf{Trình bày lời giải:}
+		\begin{enumerate}[a),leftmargin=*]
+			\i  An đang điều tra về các loại trà sữa được yêu thích của 30 khách hàng trong tối thứ bảy.
+			\i Các dữ liệu mà An thu thập được: 
+			\begin{center}
+				\begin{tabular}{|c|c|}
+					\hline
+					Vị trà sữa	&Số khách hàng thích\\
+					\hline
+					Dâu	 & 9\\
+					\hline
+					Khoai môn & 4 \\
+					\hline	 
+					Sầu riêng & 5 \\
+					\hline	 
+					Sô cô la & 7 \\
+					\hline	 
+					Vani & 5 \\
+					\hline
+				\end{tabular}
+			\end{center}	 
+			\i Trà sữa vị dâu được mọi người yêu thích nhất.
+		\end{enumerate}
+	}
+\end{vd}
+\begin{vd}
+	\ldots ``Từ ngã ba Tuần, sông Hương theo hướng nam bắc qua điện Hòn Chén; vấp Ngọc Trản, nó chuyển hướng sang tây bắc, vòng qua thềm đất bãi Nguyệt Biều, Lương Quán rồi đột ngột vẽ một hình cung thật tròn về phía đông bắc, ôm lấy chân đồi thiên Mụ, xuôi dần về Huế. Từ Tuần về đây, sông Hương vẫn đi trong dư vang của Trường Sơn, vượt qua một lòng vực sâu dưới chân núi Ngọc Trản sắc nước trở nên xanh thẳm, và từ đó nó trôi đi giữa hai dãy đồi sừng sững như thành quách, với những điểm cao đột ngột như Vọng Cảnh, Tam Thai, Lựu Bảo "\ldots\ldots.
+	
+	\hfill (Trích \textit{Ai đã đặt tên cho dòng sông} -- Hoàng Phủ Ngọc Tường)
+	
+	Hãy liệt kê các địa danh xuất hiện trong đoạn văn trên.
+	\loigiai{
+		Các địa danh xuất hiện trong đoạn văn trên là: Hòn Chén; vấp Ngọc Trản,  Nguyệt Biều, Lương Quán Thiên Mụ, Huế, Trường Sơn, Vọng Cảnh, Tam Thai, Lựu Bảo.
+	}
+\end{vd}
+\begin{vd}
+	Cho hai dãy dữ liệu như sau:
+	\begin{enumerate}[(1),leftmargin=*]
+		\i Số điện thoại của các thành viên trong gia đình An (sử dụng tại Việt Nam):
+		\[0986111234 \quad\quad	0833228576	\quad\quad0912345678\quad\quad	012345\quad\quad	 0966123456\]
+		\i Cân nặng của 5 người (đơn vị là kilôgam) trong gia đình An:
+		\[45	\quad\quad65	\quad\quad0,5\quad\quad		50\quad\quad	57\]	
+	\end{enumerate}
+	\begin{enumerate}[a),leftmargin=*]
+		\i Trong các dãy dữ liệu trên, dãy nào là dãy số liệu?
+		\i Hãy tìm dữ liệu không hợp lí (nếu có) trong mỗi dãy dữ liệu trên.
+	\end{enumerate}
+	\loigiai{\textbf{Tìm cách giải:}
+		\begin{enumerate}[a),leftmargin=*]
+			\i \begin{enumerate}[--,leftmargin=*]
+				\i Dãy (1): dữ liệu về số điện thoại có phải là số liệu không? Trong trường hợp này phân tích số điện thoại đã cho ta sẽ thấy đây không phải là số vì bắt đầu là 0, do đó dữ liệu này không phải số liệu. 
+				\i Dãy (2): dữ liệu về cân nặng là số liệu.
+			\end{enumerate}
+			\i \begin{enumerate}[--,leftmargin=*]
+				\i Dãy số (1): số điện thoại đang được sử dụng tại Việt Nam đều phải có 10 chữ số, do đó dữ liệu không hợp lí trong dãy là 012345
+				\i Dãy số (2): cân nặng của con người khi được sinh ra không thể là 0,5 kg nên dữ liệu không hợp lí trong dãy là ``0,5".
+			\end{enumerate}
+		\end{enumerate}	
+		\textbf{Trình bày lời giải:}
+		\begin{enumerate}[a),leftmargin=*]
+			\i Dãy (2) là dãy số liệu, dãy (1) không phải là dãy số liệu.
+			\i Dãy (1): Theo quy định mỗi số điện thoại sử dụng được ở Việt Nam gồm 10 chữ số và các đầu số cụ thể theo từng nhà mạng, nên "012345" là dữ liệu không hợp lí.\\
+			Dãy (2): ``0,5" là dữ liệu không hợp lí vì cân nặng của một người khi được sinh ra không thể là 0,5 kg.
+		\end{enumerate}
+		\textbf{$^*$Nhận xét:} Khi lập thu thập dữ liệu cho một cuộc điều tra, ta thường phải xác định: dấu hiệu (các vấn đề hay hiện tượng mà ta quan tâm tìm hiểu), dữ liệu, số liệu,\ldots để phục vụ cho việc thống kê ban đầu.
+	}
+\end{vd}
+\begin{vd}
+	Điều tra về môn học được yêu thích nhất của các bạn lớp 6A, bạn lớp trưởng thu được bảng dữ liệu ban đầu như sau:
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			K&	L&	T&	K&	L&	V\\
+			\hline
+			V&	V&	N&	T&	T&	L\\
+			\hline
+			T&	T&	T&	K&	V&	N\\
+			\hline
+			T&	K&	V&	V&	L&	T\\
+			\hline
+			L&	K&	K&	V&	L&	T\\
+			\hline
+		\end{tabular}
+	\end{center}
+	\textit{Viết tắt}: V: Văn; T: Toán; K: Khoa học tự nhiên; L: Lịch sử \& Địa lí; N: Ngoại ngữ
+	
+	Hãy lập bảng dữ liệu thống kê tương ứng và cho biết môn học nào được các bạn lớp   yêu thích nhất.
+	\loigiai{
+			Bảng dữ liệu thống kê
+		\begin{center}
+			\begin{tabular}{|l| c| c| c| c| c|}
+				\hline
+				Môn học&	T&	V&	K&	L&	N\\
+				\hline
+				Số bạn yêu thích& 9 & 7& 6& 6& 2 \\
+				\hline
+			\end{tabular}
+		\end{center}	 
+		Môn Toán được các bạn lớp 6A yêu thích nhất.
+	}
+\end{vd}
+\begin{vd}
+	Cho dãy số liệu về cân nặng theo đơn vị kilôgam của các học sinh lớp 6A như sau:
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+			\hline
+			40 & 34 & 35 & 41& 39 & 42& 40& 35 & 34 & 40 & 42\\
+			\hline
+			39 & 42& 40& 45& 34 & 40 &42 & 45 & 48& 35 &40\\
+			\hline
+		\end{tabular}
+	\end{center}
+	\begin{enumerate}[a),leftmargin=*]
+		\i Hãy nêu đối tượng thống kê và tiêu chí thống kê.
+		\i Em hãy lập bảng thống kê. 
+		\i Dựa vào bảng trên hãy cho biết có bao nhiêu bạn nặng  kg? Bạn nặng nhất là bao nhiêu kilogam? Bạn có cân nặng thấp nhất là bao nhiêu kilogam?
+	\end{enumerate}
+	\loigiai{
+		\begin{enumerate}[a),leftmargin=*]
+			\i  Đối tượng thống kê: cân nặng (theo đơn vị kilôgam).\\
+			Tiêu chí thống kê: Số học sinh có cùng một cân nặng.
+			\i Bảng thống kê 
+			\begin{center}
+				\begin{tabular}{|l|c|c|c|c|c|c|c|c|}
+					\hline
+					Cân nặng (kg) &34 & 35& 39 &40& 41 & 42 & 45 & 48\\	 
+					\hline
+					Số học sinh & 3 & 3& 2& 6 &1&4&2&1\\
+					\hline	 
+				\end{tabular}
+			\end{center}
+			\i Có 6  bạn nặng 40 kg. Bạn nặng kí nhất là 48 kilogam. Bạn ít kí nhất là 34 kilogam.
+		\end{enumerate}
+		\textbf{$^*$Nhận xét:} Từ bảng số liệu ban đầu lập bảng Thống kê (theo dạng ``ngang" hay "dọc") trong đó nêu rõ danh sách các đối tượng thống kê và các dữ liệu tương ứng của đối tượng đó.
+	}
+\end{vd}
+\subsection{MỞ RỘNG KIẾN THỨC}
+Thông điệp của Bà Natalia Kanem, Giám đốc điều hành UNFPA toàn cầu nhân ngày Thống kê thế giới
+Số liệu thống kê không chỉ đơn thuần là con số, mà còn là câu chuyện về con người. Số liệu thống kê phản ánh sức khỏe và hạnh phúc, các vấn đề và triển vọng cũng như hoàn cảnh kinh tế xã hội của mỗi con người. Nếu được thu thập và phân tích tốt thì số liệu thống kê sẽ giúp thúc đẩy phát triển bền vững, xác định những đối tượng có nguy cơ bị bỏ lại phía sau.
+
+Chúng ta kỷ niệm Ngày Thống kê Thế giới vào đúng thời điểm thế giới chúng ta cần số liệu đáng tin cậy và kịp thời hơn bao giờ hết. May mắn thay, công nghệ đã làm tăng khả năng phân tích thống kê theo cấp số nhân, giúp chúng ta hiểu và hành động về các vấn đề hiện tại và các xu hướng mới nổi.
+
+Năm 2020, bất chấp đại dịch COVID--19, nhiều quốc gia đang tiến hành các cuộc Tổng điều tra dân số quốc gia kéo dài 10 năm và nhiều quốc gia sẽ lần đầu tiên dựa vào số liệu không gian địa lý. Sự kết hợp của thông tin nhân khẩu học và địa lý có thể được trực quan hóa trên bản đồ để bất kỳ ai cũng có thể thấy nhu cầu của người dân ở các nơi khác nhau có được đáp ứng hay không. Ví dụ, bản đồ có thể hiển thị chính xác nơi mà vấn đề tảo hôn hoặc cắt bỏ bộ phận sinh dục nữ phổ biến nhất và nơi mà các cơ quan cung cấp dịch vụ, luật pháp và chi tiêu cần làm việc hiệu quả hơn để có thể tiếp cận người dân.
+
+Nếu không có thông tin này, các nhóm dân số ngoài lề sẽ rơi vào nhóm dân số ít được chú ý và quan tâm.
+
+Số liệu không gian địa lý chỉ là một trong số các công cụ thống kê mới mạnh mẽ. Nhưng số liệu này có thể mang đến những rủi ro. Các số liệu này có thể được sử dụng để giúp nâng cao cuộc sống của mọi người và giúp họ thực hiện các quyền của mình. Việc thu thập số liệu các nhóm dân số vẫn còn đang bị phân biệt đối xử là điều hoàn toàn có thể. Những nơi đang có các nhóm dân số phải chịu phân biệt đối xử lâu dài có thể muốn được mọi người nhận ra, nhưng cũng rất sợ hậu quả.
+
+Chúng ta phải tin tưởng rằng số liệu thống kê cho chúng ta biết sự thật. Cần thực hiện các bước để đảm bảo rằng số liệu chính xác, nhất quán và đầy đủ sẽ cung cấp cho chúng ta một bức tranh toàn diện. Đồng thời, chúng ta phải có thể tin tưởng vào cách số liệu thống kê được sử dụng và quá trình này tôn trọng quyền riêng tư và ngăn ngừa phân biệt đối xử.
+
+Hôm nay là thời điểm để kêu gọi các nhà thống kê, chính phủ và những công ty đổi mới công nghệ hàng đầu đảm bảo rằng số liệu chúng ta tạo ra là chính xác và phản ánh câu chuyện của con người đằng sau mỗi con số. Với số liệu tốt hơn, chúng ta sẽ hiểu rõ hơn về những thách thức mà mọi người đang phải đối mặt và chúng ta đang đạt được bao nhiêu tiến bộ trong việc cải thiện cuộc sống và bảo vệ quyền của người dân.
+\subsection{BÀI TẬP TỰ LUYỆN}
+\Opensolutionfile{loigiaichung}[loigiaichuong39]
+\subsubsection*{Mức cơ bản}
+\begin{bt}
+	Giáo viên chủ nhiệm lớp $6A$ yêu cầu lớp trưởng điều tra về loại nhạc cụ: Organ, Ghita, Kèn, Trống, Sáo mà các học sinh trong lớp yêu thích nhất.
+	\begin{enumerate}[a),leftmargin=*]
+		\i Lớp trưởng lớp $6A$ cần thu thập những dữ liệu nào? 
+		\i Nêu những đối tượng thống kê và tiêu chí thống kê?
+		\i Từ bảng của dưới đây, dãy số liệu lớp trưởng lớp $6A$ liệt kê có hợp lý không? Vì sao?
+	\end{enumerate}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			Nhạc cụ	 &Kiểm đếm	&Số bạn yêu thích\\
+			\hline
+			Organ &	& 12\\
+			\hline	 
+			Ghita & & 7 \\
+			\hline	 
+			Kèn	& & 15 \\
+			\hline
+			Trống & & 25 \\
+			\hline	 
+			Sáo	& & 15 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\begin{loigiaichuong39}
+		\begin{enumerate}[a),leftmargin=*]
+			\i Khi tiến hành thống kê lớp trưởng lớp  $6A$ cần thu thập thông tin về loại nhạc cụ yêu thích nhất của các học sinh trong lớp.
+			\i Đối tượng thống kê là  loại nhạc cụ: Organ, Ghita, Kèn, Trống, Sáo.\\
+			Tiêu chí thống kê là số học sinh yêu thích từng loại nhạc cụ đó.
+			\ Số thành viên trong câu lạc bộ theo thống kê của lớp trưởng là: $12 + 7+ 15 +25 +15 = 74$ (học sinh)\\ 
+			Theo quy định, mỗi lớp ở bậc THCS có không quá 45 HS. Thực tế, do điều kiện khó khăn, một lớp có số học sinh nhiều hơn 45 HS nhưng không có lớp nào có 74 học sinh,  74 là giá trị không hợp lí.
+		\end{enumerate}
+	\end{loigiaichuong39}
+\end{bt}
+\begin{bt}
+	Tuổi của các bạn đến dự sinh nhật bạn Ngân được ghi lại như sau:
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			11&	12&	10&	11&	12&	10\\
+			\hline
+			10&	12&	11&	12&	11&	12\\
+			\hline
+		\end{tabular}
+	\end{center}
+	\begin{enumerate}[a),leftmargin=*]
+		\i Hãy lập bảng thống kê cho những dữ liệu trên.
+		\i Có bao nhiêu bạn tham dự sinh nhật bạn Ngân?
+		\i Khách có tuổi nào là nhiều nhất?
+	\end{enumerate}
+	\begin{loigiaichuong39}
+		thieeus
+	\end{loigiaichuong39}
+\end{bt}
+\begin{bt}
+	Một trạm kiểm soát giao thông ghi tốc độ của $30$ chiếc xe moto (đơn vị là km/h) qua trạm như sau: 
+	\begin{center}
+		\begin{tabular}{|c c c c c c c c c c|}
+			\hline
+			40 & 58 & 60 & 75 & 45 & 70 & 60 & 49 & 60& 75\\
+			52 & 41 & 70 & 65 & 60 & 42 & 80 & 65 & 58 & 55 \\
+			65 & 75 & 40 & 55 & 68 & 70 & 52 & 55 & 60 & 70\\
+			\hline
+		\end{tabular}
+	\end{center}
+	\begin{enumerate}[a),leftmargin=*]
+		\i Nêu đối tượng thống kê và tiêu chí thống kê.
+		\i Trong bảng trên xe đi với tốc độ lớn nhất là bao nhiêu $km/h$
+		\i Ở tốc độ bao nhiêu $km/h$ có nhiều xe đi nhất.
+		\i Nếu đoạn đường đó cho phép xe moto đi với tốc độ tối đa là $60\, km/h$ thì có bao nhiêu xe vi phạm luật giao thông đường bộ
+	\end{enumerate}
+	\begin{loigiaichuong39}
+		\begin{enumerate}[a),leftmargin=*]
+			\i Đối tượng thống kê là  30 xe moto đi qua trạm kiểm soát giao thông
+			Tiêu chí thống kê là tốc độ đi của  30 xe moto.
+			\i Trong bảng trên xe đi với tốc độ lớn nhất là  $80\, km/h$ 
+			\i Ở tốc độ $60\, km/h$ có nhiều xe đi nhất, có  5 xe đi .
+			\i Nếu đoạn đường đó cho phép xe moto đi với tốc độ tối đa là  $60 \,km/h$ thì có 12  xe vi phạm luật giao thông đường bộ.
+		\end{enumerate}
+	\end{loigiaichuong39}
+\end{bt}
+\begin{bt}
+	Bạn Thanh muốn tìm hiểu về size áo phông của các bạn trong lớp 6A1 để may đồng phục lớp nên đã đi hỏi từng bạn và ghi lại vào bảng sau:
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			S&	L&	L&	M&	S\\
+			\hline
+			S&	S&	M&	S&	M\\
+			\hline
+			S&	M&	M&	M&	M\\
+			\hline
+			S&	L&	M&	M&	L\\
+			\hline
+			L&	M&	L&	M&	L\\
+			\hline
+			M&	M&	L&	M&	S\\
+			\hline
+		\end{tabular}
+	\end{center}
+	\begin{enumerate}[a),leftmargin=*]
+		\i Bạn Thanh cần thu thập dữ liệu gì? Nêu đối tượng thống kê và tiêu chí thống kê.
+		\i Có bao nhiêu bạn trong lớp 6A1?
+		\i Bạn Thanh nói rằng có 5 bạn mặc size S. Bạn Thanh nói có đúng không?
+		\i Em hãy lập bảng thống kê từ bảng dữ liệu trên.
+	\end{enumerate}
+	\begin{loigiaichuong39}
+		\begin{enumerate}[a),leftmargin=*]
+			\i Khi tiến hành thống kê, bạn Thanh cần thu thập thông tin về size áo phông của từng bạn trong lớp 6A1.
+			\begin{enumerate}[+,leftmargin=*]
+				\i Đối tượng thống kê là các size áo : S, M, L.
+				\i Tiêu chí thống kê số bạn mặc vừa trong mỗi size.
+			\end{enumerate}
+			\i Lớp 6A1 có 30 bạn.
+			\i Bạn Thanh nói không đúng, có 8 bạn mặc size S.
+			\i 
+			\begin{tabular}{|c|c|c|c|}
+				\hline
+				Size áo &	S&	M&	L\\
+				\hline
+				Số bạn mặc&	8&	14&	8\\
+				\hline
+			\end{tabular}
+		\end{enumerate}
+	\end{loigiaichuong39}
+\end{bt}
+\begin{bt}
+	Để khảo sát số học sinh nghỉ học ở từng buổi học trong một tháng, bạn lớp trưởng ghi lại như bảng sau:
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+			\hline
+			0&	1&	5&	2&	2&	4&	2&	3&	0	&0&	1&	4&	1\\
+			\hline
+			5&	2&	4&	0&	0&	1&	2&	3&	1	&1&	4&	3&	2\\
+			\hline
+		\end{tabular}
+	\end{center}
+	\begin{enumerate}[a),leftmargin=*]
+		\i Hãy lập bảng thống kê cho những dữ liệu trên.
+		\i Dựa vào bảng thống kê, số học sinh nghỉ học nhiều nhất trong một buổi là bao nhiêu học sinh? Trung bình mỗi buổi học, số học sinh nghỉ là bao nhiêu?
+	\end{enumerate}
+	\begin{loigiaichuong39}
+		\begin{enumerate}[a),leftmargin=*]
+			\i \begin{tabular}{|c|c|c|c|c|c|c|}
+				\hline
+				Số học sinh nghỉ&	0&	1	&2&	3&	4&	5\\
+				\hline
+				Số buổi&	5&	6&	6&	3&	4&	2\\
+				\hline
+			\end{tabular}
+			\i Số học sinh nghỉ học nhiều nhất trong một buổi là 5 học sinh.\\ 
+			Trung bình mỗi buổi học, số học sinh nghỉ là:
+			\[\dfrac{{5.0 + 6.1 + 6.2 + 3.3 + 4.4 + 2.5}}{{26}} = 2 \text{ (học sinh)}\]
+		\end{enumerate}
+	\end{loigiaichuong39}
+\end{bt}
+\subsubsection*{Mức độ nâng cao}
+\begin{bt}
+	Số học sinh vắng trong ngày của các lớp khối 6 trường THCS A được ghi lại trong bảng dưới đây:
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|c|c|}
+			\hline
+			6A1&	6A2&	6A3&	6A4&	6A5&	6A6&	6A7&	6A8\\
+			\hline
+			2	&1&	4&	K&	0&	1&	100& -2\\
+			\hline
+		\end{tabular}
+	\end{center}
+	\begin{enumerate}[a),leftmargin=*]
+	\i	Tìm kiếm các thông tin chưa hợp lý của bảng dữ liệu trên. 
+	\i	Các thông tin không hợp lý ở trên vi phạm những tiêu chí nào? Hãy giải thích. 
+	\end{enumerate}
+	\begin{loigiaichuong39}
+		\begin{enumerate}[a),leftmargin=*]
+			\i Thông tin chưa hợp lý của bảng dữ liệu trên là K, -2, 100.
+			\i Các thông không hợp lý trên vi phạm tiêu chí: 
+			\begin{enumerate}[-,leftmargin=*]
+				\i K: dữ liệu phải là số
+				\i 100: Số học sinh trong một lớp không quá 45 nên số học sinh vắng trong ngày không thể là 100
+				\i -2: Số học sinh vắng phải là số tự nhiên.
+			\end{enumerate}	
+		\end{enumerate}
+	\end{loigiaichuong39}
+\end{bt}
+\begin{bt}
+	Shop giày bán loại giày với giá tiền là: 300; 350; 400; 450; 250  (đơn vị: nghìn đồng/sản phẩm). Số giày bán ra của cửa hàng trong tháng 12 và tháng 1 vừa qua được thông kê như sau:
+	\begin{center}
+		\begin{tabular}{|l|c|c|c|c|c|}
+			\hline
+			Giá bán	&250&	300&	350&	400&	450\\
+			\hline
+			Số lượng bán ra&	700&	400&	600&	150&	70\\
+			\hline
+		\end{tabular}
+	\end{center}
+	Loại giày nào shop bán chạy nhất? Loại giày nào có lượng tiêu thụ ít nhất?
+	
+	Nếu là chủ shop giày, em sẽ nhập mẫu giày nào để bán nhiều hơn cho các tháng tiếp theo;
+	
+	Liệu có nên dừng nhập mẫu giày có giá  nghìn đồng không? Vì sao?
+	\begin{loigiaichuong39}
+		\begin{enumerate}[--,leftmargin=*]
+			\i Loại giày shop bán chạy nhất là loài giày có giá 250 nghìn.
+			\i Loại giày có giá 450 nghìn có lượng tiêu thụ ít nhất
+			\i Nếu là chủ shop giày, em sẽ nhập mẫu giày có giá 250 nghìn, 350 nghìn, 300  nghìn,  400 nghìn để bán nhiều hơn cho các tháng tiếp theo.
+		\end{enumerate}
+		$^*$Không nên dừng nhập mẫu giày có giá 450 nghìn đồng vì vẫn có khách hàng mua, tuy nhiên lượng nhập vào nên giảm đi và tìm mọi cách để kích cầu dòng sản phẩm này 
+		Ví dụ: quảng cáo thêm cho sản phẩm trên các trang mạng xã hội, tặng thêm hàng khuyến mại, giảm giá \ldots.
+	\end{loigiaichuong39}
+\end{bt}
+\begin{bt}
+	Điểm kiểm tra giữa kì I môn Toán của các em học sinh trong lớp 6A2 được ghi trong bảng dưới đây:
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+			\hline
+			5&	6&	3&	9&	6&	9&	7&	10&	5&	10\\
+			\hline
+			6&	4&	6&	8&	5&	7&	8&	6&	9&	7\\
+			\hline
+			5&	6&	5&	7&	6&	4&	6&	5&	6&	5\\
+			\hline
+			8&	7&	8&	7&	9&	8&	7&	6&	8&	10\\
+			\hline
+		\end{tabular}
+	\end{center}
+	\begin{enumerate}[a),leftmargin=*]
+		\i Hãy nêu đối tượng thống kê và tiêu chí thống kê.
+		\i Lập bảng thống kê từ bảng số liệu trên
+		\i Căn cứ vào bảng trên hãy cho biết điểm trung bình của 10 bạn có điểm thấp nhất và điểm trung bình của 10 bạn có điểm cao nhất trong lớp.
+	\end{enumerate}
+	\begin{loigiaichuong39}
+		\begin{enumerate}[a),leftmargin=*]
+			\i Đối tượng thống kê là các điểm số: 3, 4, 5, 6, 7, 8, 9, 10.\\
+			 Tiêu chí thống kê là số học sinh ứng với mỗi loại điểm.
+			\i \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+				\hline
+					Điểm&	3&	4	&5&	6&	7&	8&	9&	10\\
+					\hline
+				Số học sinh&	1&	2&	7&	10&	7&	6	&4&	3\\
+				\hline
+			\end{tabular} 
+		
+			\i Điểm trung bình của 10 bạn có điểm thấp nhất là  $\dfrac{{3.1 + 4.2 + 5.7}}{{10}} = \dfrac{{46}}{{10}} = 4,6$\\
+			Điểm trung bình của 10 bạn có điểm cao nhất là  $\dfrac{{10.3 + 9.4 + 8.3}}{{10}} = \dfrac{{90}}{{10}} = 9,0$
+		\end{enumerate}
+	\end{loigiaichuong39}
+\end{bt}
+\Closesolutionfile{loigiaichung}
+
+
+
+
+
+
+
+
