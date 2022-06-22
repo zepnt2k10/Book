@@ -1,6 +1,7 @@
 \def\i{\item}
 \graphicspath{{../pictures/c5/}}
-\chapter{MỘT SỐ YẾU TỐ THỐNG KÊ VÀ XÁC SUẤT}
+%\chapter{MỘT SỐ YẾU TỐ THỐNG KÊ VÀ XÁC SUẤT}
+\newpage
 \section{BIỂU ĐỒ VÀ CÁC DẠNG BIỂU ĐỒ}
 \subsection{CÁC KIẾN THỨC CẦN NHỚ}
 \subsubsection{Biểu đồ tranh}
@@ -54,19 +55,21 @@
 \begin{vd}
 	Biểu đồ tranh sau đây biểu diễn số lượng học sinh lớp $8A$ sử dụng các phương tiện khác nhau để đi đến trường
 	\begin{center}
+		\renewcommand{\arraystretch}{1.4}
 		\begin{tabular}{|l|l|}
 			\hline
-			Đi bộ	 &   \\
+			Đi bộ	 &  \includegraphics[scale=0.4]{hs}\includegraphics[scale=0.4]{hs} \\
 			\hline
-			Xe đạp 	  &          \\
+			Xe đạp 	  &  \includegraphics[scale=0.4]{hs}\includegraphics[scale=0.4]{hs}\includegraphics[scale=0.4]{hs}\includegraphics[scale=0.4]{hs}\includegraphics[scale=0.4]{hs}\includegraphics[scale=0.4]{hs}\includegraphics[scale=0.4]{hs}        \\
 			\hline
-			Xe ô tô (đưa đón học sinh)	&      \\
+			Xe ô tô (đưa đón học sinh)	&  \includegraphics[scale=0.4]{hs}\includegraphics[scale=0.4]{hs}\includegraphics[scale=0.4]{hs}\includegraphics[scale=0.4]{hs}    \\
 			\hline
-			Phương tiện khác &	\\
+			Phương tiện khác &	\includegraphics[scale=0.4]{hs}\\
 			\hline
 		\end{tabular}
 	
-	(Mỗi   ứng với 3 học sinh)
+	\vspace*{5pt}
+	(Mỗi \includegraphics[scale=0.4]{hs} ứng với 3 học sinh)
 	\end{center}
 	\begin{enumerate}[a),leftmargin=*]
 		\i Lớp $8A$ có tất cả bao nhiêu học sinh.
@@ -77,10 +80,10 @@
 	\loigiai{
 		\textbf{Tìm cách giải:}
 		\begin{enumerate}[a),leftmargin=*]
-			\i Trên biểu đồ có bao nhiêu biểu tượng , mỗi biểu tượng   ứng với bao nhiêu học sinh. Từ đó tính được số học sinh lớp $8A$.
+			\i Trên biểu đồ có bao nhiêu biểu tượng \includegraphics[scale=0.4]{hs}, mỗi biểu tượng \includegraphics[scale=0.4]{hs}  ứng với bao nhiêu học sinh. Từ đó tính được số học sinh lớp $8A$.
 			\i Xác định số biểu tượng của  ``Xe đạp", từ đó sẽ tính được số học sinh đến trường bằng xe đạp.
 			\i Tính số học sinh đi bộ đến trường, số học sinh đi xe ô tô (đưa đón học sinh) và số học sinh đi bằng phương tiện khác đến trường; từ đó lập bảng thống kê.
-			\i Tỉ số phần trăm học sinh đi bộ đến trường  = $\frac{\text{Số học sinh đi bộ đến trường}}{\text{Tổng số học sinh lớp 8A}} \cdot 100\%$
+			\i Tỉ số phần trăm học sinh đi bộ đến trường  = $\dfrac{\text{Số học sinh đi bộ đến trường}}{\text{Tổng số học sinh lớp 8A}} \cdot 100\%$
 		\end{enumerate}
 		\textbf{Trình bày lời giải:}
 		\begin{enumerate}[a),leftmargin=*]
@@ -97,13 +100,19 @@
 				Số lượng học sinh&	6&	21&	12&	3\\
 				\hline
 			\end{tabular}
-			\i Tỉ số phần trăm học sinh đi bộ đến trường là: $\frac{6}{42}\cdot100\% = 14,3 \%$  (kết quả đã được làm tròn đến hàng phần mười)
+			\i Tỉ số phần trăm học sinh đi bộ đến trường là: $\dfrac{6}{42}\cdot100\% = 14,3 \%$  (kết quả đã được làm tròn đến hàng phần mười)
 		\end{enumerate}
 	}
 \end{vd}
 \begin{vd}
 	Biểu đồ cột sau đây biểu diễn số lượng vé bán được với các mức giá khác nhau của một buổi hòa nhạc
-	
+	\begin{figure}[H]
+		\centering
+		\vspace*{-5pt}
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width=0.5\linewidth]{1}
+		\vspace*{-10pt}
+	\end{figure}
 	\begin{enumerate}[a),leftmargin=*]
 		\i Tổng số vé bán được là bao nhiêu?
 		\i Tổng số tiền bán vé thu được là bao nhiêu?
@@ -134,13 +143,19 @@
 				\end{tabular}
 			\end{center}
 			\i Nếu nhà hát có 2500 ghế, thì số vé bán được chiếm số phần trăm là:
-			\[\frac{{1800}}{{2500}}.100\%  = 72\%\]
+			\[\dfrac{{1800}}{{2500}}.100\%  = 72\%\]
 		\end{enumerate}
 	}
 \end{vd}
 \begin{vd}
 	Biểu đồ dưới đây biểu diễn số huy chương vàng và tổng số huy chương của các quốc gia tham dự Seagame lần thứ 30.
-	
+	\begin{figure}[H]
+		\centering
+		\vspace*{-5pt}
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width=0.5\linewidth]{2}
+		\vspace*{-10pt}
+	\end{figure}
 	\begin{enumerate}[a),leftmargin=*]
 		\i Kể tên 3 quốc gia có số huy chương vàng nhiều nhất?
 		\i Sắp xếp các quốc gia theo thứ tự giảm dần về tổng số huy chương đạt được?
@@ -210,6 +225,8 @@
 					Kéo co	&$\heartsuit$$\heartsuit$$\heartsuit$$\heartsuit$\\
 					\hline
 				\end{tabular}
+			
+			\vspace*{5pt}
 			(Mỗi $\heartsuit$ ứng với 3 bạn chọn)
 			\end{center}
 			\i Trò chơi nhảy bao bố được các bạn lựa chọn nhiều nhất.
@@ -234,7 +251,7 @@
 	\end{enumerate}
 	\loigiai{
 		\begin{enumerate}[a),leftmargin=*]
-			\i
+			\i \includegraphics[width=0.5\linewidth]{3}
 			
 			\i Đơn vị tính số lượt xem của các các nhóm nhạc trong biểu đồ là triệu lượt.
 			\i Nhóm nhạc có lượt xem nhiều nhất là nhóm B có 1220 triệu lượt xem, nhóm có lượt xem ít nhất là nhóm D có 420 triệu lượt xem.
@@ -262,7 +279,7 @@
 	\end{enumerate}
 	\loigiai{
 		\begin{enumerate}[a),leftmargin=*]
-			\i
+			\i \includegraphics[width=0.5\linewidth]{4}
 			\i Tổng số truyện tranh mà các em học sinh đã mượn là 
 			\[25 + 35 + 20 + 40 + 30 = 150 \text{ (quyển)}\]
 			\i Tổng số sách tham khảo mà các em học sinh đã mượn là 
@@ -307,7 +324,7 @@
 				\hline
 			\end{tabular}
 			
-			\i
+			\i \includegraphics[width=0.5\linewidth]{5}
 			
 			Bạn Thắng đá bóng vào gôn được nhiều nhất sau 10 lần đá.
 		\end{enumerate}
@@ -346,7 +363,7 @@
 				Siêu thị B&	15 tấn&	40 tấn&	25 tấn&	40 tấn\\
 				\hline
 			\end{tabular}
-			\i
+			\i \includegraphics[width=0.5\linewidth]{6}
 			\i Quan sát biểu đồ cột kép vừa vẽ thấy rằng trong bốn tháng đầu năm, siêu thị B bán được nhiều táo hơn.
 		\end{enumerate}
 		\textbf{$^*$Nhận xét:} 
@@ -371,6 +388,13 @@ Biểu đồ cột tuy là dạng rất đơn giản, dễ thực hiện nhưng 
 	\i Một số yếu tố phụ khác: thiếu tên biểu đồ hoặc bảng chú giải.
 \end{enumerate}
 $^*$Vẽ theo đúng trình trình tự bài cho, không được tự ý sắp xếp từ thấp tới cao hoặc ngược lại trừ khi bài có yêu  cầu sắp xếp lại.
+\begin{figure}[H]
+	\centering
+	\vspace*{-5pt}
+	\captionsetup{labelformat= empty, justification=centering}
+	\includegraphics[width=0.5\linewidth]{7}
+	\vspace*{-10pt}
+\end{figure}
 \subsection{BÀI TẬP TỰ LUYỆN} 
 \subsubsection*{Mức cơ bản}
 \Opensolutionfile{loigiaichung}[loigiaichuong40]
@@ -408,6 +432,13 @@ $^*$Vẽ theo đúng trình trình tự bài cho, không được tự ý sắp 
 				\end{tabular}
 			\end{center}
 			\i Biểu đồ cột biểu thị số lượng các bạn yêu thích mỗi màu áo đồng phục lớp. 
+			\begin{figure}[H]
+				\centering
+				\vspace*{-5pt}
+				\captionsetup{labelformat= empty, justification=centering}
+				\includegraphics[width=0.5\linewidth]{9}
+				\vspace*{-10pt}
+			\end{figure}
 		\end{enumerate}
 	\end{loigiaichuong40}
 \end{bt}
@@ -430,6 +461,13 @@ $^*$Vẽ theo đúng trình trình tự bài cho, không được tự ý sắp 
 				\end{tabular}
 			\end{center}	 
 			\i Biểu đồ cột biểu diễn số lượng nhân viên sử dụng mỗi loại phương tiện đi làm
+			\begin{figure}[H]
+				\centering
+				\vspace*{-5pt}
+				\captionsetup{labelformat= empty, justification=centering}
+				\includegraphics[width=0.5\linewidth]{10}
+				\vspace*{-10pt}
+			\end{figure}
 		\end{enumerate}
 	\end{loigiaichuong40}
 \end{bt}
@@ -471,7 +509,13 @@ $^*$Vẽ theo đúng trình trình tự bài cho, không được tự ý sắp 
 				\end{tabular}
 			\end{center}
 			\i	Biểu đồ minh họa:
-			
+			\begin{figure}[H]
+				\centering
+				\vspace*{-5pt}
+				\captionsetup{labelformat= empty, justification=centering}
+				\includegraphics[width=0.5\linewidth]{11}
+				\vspace*{-10pt}
+			\end{figure}
 			Qua biểu đồ trên ta thấy các bạn học sinh lớp $6C$ yêu thích nhất môn Toán.
 		\end{enumerate}
 	\end{loigiaichuong40}
@@ -560,7 +604,7 @@ $^*$Vẽ theo đúng trình trình tự bài cho, không được tự ý sắp 
 	\end{enumerate}
 	\begin{loigiaichuong40}
 		\begin{enumerate}[a),leftmargin=*]
-			\i
+			\i \includegraphics[width=0.5\linewidth]{12}
 			\i Đợt 2 quyên góp nhận được sự ủng hộ của các bạn nhiều hơn.
 		\end{enumerate}
 	\end{loigiaichuong40}
@@ -590,7 +634,13 @@ $^*$Vẽ theo đúng trình trình tự bài cho, không được tự ý sắp 
 	\begin{loigiaichuong40}
 		\begin{enumerate}[a),leftmargin=*]
 			\i Chọn biểu đồ cột và vẽ như sau:
-			
+			\begin{figure}[H]
+				\centering
+				\vspace*{-5pt}
+				\captionsetup{labelformat= empty, justification=centering}
+				\includegraphics[width=0.5\linewidth]{13}
+				\vspace*{-10pt}
+			\end{figure}
 			\i Lớp $6A$ có số học sinh là $6 + 24 + 9 + 3 = 42$  (học sinh).\\
 			Theo em ở nhà các bạn học sinh lớp $6A$ hay làm bài tập ở phòng học nhất.
 		\end{enumerate}
@@ -601,7 +651,7 @@ $^*$Vẽ theo đúng trình trình tự bài cho, không được tự ý sắp 
 	\begin{center}
 		\begin{tabular}{|l|l|}
 			\hline
-			Rubik&	 \\
+			Rubik& \\
 			 \hline
 			Ô tô điều khiển	& \\
 			\hline
@@ -650,7 +700,13 @@ $^*$Vẽ theo đúng trình trình tự bài cho, không được tự ý sắp 
 \end{bt}
 \begin{bt}
 	Biểu đồ kép dưới đây biểu diễn số học sinh giỏi hai môn Toán và Ngữ văn của các lớp $6A$, $6B$, $6C$, $6D$ và $6E$
-	
+	\begin{figure}[H]
+		\centering
+		\vspace*{-5pt}
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width=0.5\linewidth]{8}
+		\vspace*{-10pt}
+	\end{figure}
 	\begin{enumerate}[a),leftmargin=*]
 		\i Số học sinh giỏi Toán của lớp nào nhiều nhất? ít nhất?
 		\i Số học sinh giỏi Ngữ văn của lớp nào nhiều nhất? ít nhất?
@@ -663,9 +719,9 @@ $^*$Vẽ theo đúng trình trình tự bài cho, không được tự ý sắp 
 			\i Số học sinh giỏi Toán của lớp $6E$ nhiều nhất: có 20 bạn. Số học sinh giỏi Toán của lớp 6A ít nhất: 9 bạn
 			\i Số học sinh giỏi Ngữ văn của lớp $6D$ nhiều nhất: có 17 bạn. Số học sinh giỏi Ngữ văn của lớp 6A ít nhất: 7 bạn.
 			\i Số học sinh giỏi Toán của lớp $6E$ chiếm số phần trăm trong tổng số học sinh giỏi môn Toán của cả 5 lớp là
-			\[\frac{{20}}{{9 + 10 + 15 + 16 + 20}}.100\%  = 28,6\%\]
+			\[\dfrac{{20}}{{9 + 10 + 15 + 16 + 20}}.100\%  = 28,6\%\]
 			\i Số học sinh giỏi Ngữ văn của lớp $6A$ chiếm số phần trăm trong tổng số học sinh giỏi môn Toán của cả 5 lớp là
-			\[\frac{7}{{7 + 13 + 14 + 17 + 12}}.100\%  = 11,11\%\]
+			\[\dfrac{7}{{7 + 13 + 14 + 17 + 12}}.100\%  = 11,11\%\]
 			\i Bạn Nam nói lớp $6D$ có sĩ số là 34 học sinh có thể chưa đúng vì: trong lớp có thể có học sinh không giỏi môn Toán, môn Ngữ văn và có thể có học sinh giỏi cả 2 môn Toán và Ngữ văn.
 		\end{enumerate}
 	\end{loigiaichuong40}
@@ -711,6 +767,13 @@ $^*$Vẽ theo đúng trình trình tự bài cho, không được tự ý sắp 
 				\end{tabular}
 			\end{center}
 		\end{enumerate}
+		\begin{figure}[H]
+			\centering
+			\vspace*{-5pt}
+			\captionsetup{labelformat= empty, justification=centering}
+			\includegraphics[width=0.5\linewidth]{14}
+			\vspace*{-10pt}
+		\end{figure}
 	\end{loigiaichuong40}
 \end{bt}
 \Closesolutionfile{loigiaichung}
